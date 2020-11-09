@@ -1,0 +1,120 @@
+Name;Label;Question
+Directorio;Directorio;Directorio
+Secuencia_p;Secuencia_p;Secuencia_p
+Orden;Orden;Orden
+Hogar;Hogar;Hogar
+Regis;Registro de la encuesta;Registro de la encuesta
+P6016;Número de orden de la persona que proporciona la información;1. Número de orden de la persona que proporciona la información
+P6020;Sexo;2. Sexo
+;;1 Hombre
+;;2 Mujer
+P6030;;
+P6030s1;Mes (mm):;3. ¿Cuál es la fecha de nacimiento de … ?
+;;Mes ____
+P6030s3;Año (aaaa):;3. ¿Cuál es la fecha de nacimiento de … ?
+;;Año ____
+P6040;¿cuántos años cumplidos tiene...? (si es menor de 1 año, escriba 00);4. ¿Cuántos años cumplidos tiene … ?
+;;Si es menor de 1 año, escriba 00
+P6050;¿cuál es el parentesco de ... Con el jefe o jefa del hogar?;5. ¿Cuál es el parentesco de ... con el jefe o jefa del hogar?
+;;a. Jefe (a) del hogar
+;;b. Pareja, esposo(a), cónyuge, compañero(a)
+;;c. Hijo(a), hijastro(a)
+;;d. Nieto(a)
+;;e. Otro pariente
+;;f. Empleado(a) del servicio doméstico y sus parientes
+;;g. Pensionista
+;;h. Trabajador
+;;i. Otro no pariente
+P6070;Actualmente:;6. Actualmente:
+;;a. No esta casado(a) y vive en pareja hace menos de dos años
+;;b. No esta casado (a) y vive en pareja hace dos años o más
+;;c. Esta casado (a)
+;;d. Esta separado (a) o divorciado (a)
+;;e. Esta viudo (a)
+;;f. Esta soltero (a)
+P6090;¿... Está afiliado, es cotizante o es beneficiario de alguna entidad de seguridad social en salud?;1. ¿ ... está afiliado, es cotizante o es beneficiario de alguna entidad de seguridad social en salud? (Instituto de Seguros Sociales - ISS, Empresa Promotora de Salud - EPS o Administradora de Régimen Subsidiado - ARS)
+;;1 Sí
+;;2 No
+;;9 No sabe, no informa
+P6140;¿anteriormente estuvo ... Afiliado, fue cotizante o beneficiario de alguna entidad de seguridad social en salud?;2. ¿ Anteriormente estuvo ... afiliado, fue cotizante o beneficiario de alguna entidad de seguridad social en salud? (Instituto de Seguros Sociales - ISS, Empresa Promotora de Salud - EPS o Administradora de Régimen Subsidiado - ARS)
+;;1 Sí
+;;2 No
+;;9 No sabe, no informa
+P6150;¿cuántos meses hace que ... No está afiliado o no cotiza a la seguridad social en salud?;3. ¿Cuántos meses hace que ... no está afiliado o no cotiza a la seguridad social en salud?
+P6100;¿a cual de los siguientes regímenes de seguridad social en salud está afiliado:;4. ¿A cuál de los siguientes regímenes de seguridad social en salud está afiliado:
+;;a. Contributivo (EPS)?
+;;b. Especial ? (Fuerzas Armadas, Ecopetrol, universidades públicas)
+;;c. Subsidiado? (EPS-S)
+;;d. No sabe, no informa
+P6110;¿quién paga mensualmente por la afiliación de ...?;5. ¿Quién paga mensualmente por la afiliación de...?
+;;a. ... paga una parte y otra la empresa o patrón
+;;b. Le descuentan de la pensión
+;;c. ... paga la totalidad de la afiliación
+;;d. Paga completamente la empresa o patrón donde trabaja o trabajó
+;;e. No paga, es beneficiario
+;;f. No sabe, no informa
+P6120;¿cuánto paga o cuánto le descuentan mensualmente? (si no sabe cuánto paga o cuanto le descuentan escriba 98);6. ¿Cuánto paga o cuánto le descuentan mensualmente?
+;;Valor pagado o descontado $ ________________
+P6125;¿en los últimos doce meses dejó de asistir al médico o no se hospitalizó, por no tener con que pagar estos servicios en la eps o ars?;7. ¿En los últimos doce meses dejó de asistir al médico o no se hospitalizó, por no tener con que pagar estos servicios en la EPS o ARS?
+;;1 Sí
+;;2 No
+;;9 No sabe, no informa
+P6160;¿sabe leer y escribir?;1. ¿Sabe leer y escribir?
+;;1 Sí
+;;2 No
+P6170;¿actualmente ... Asiste a la escuela, colegio o universidad?;2. ¿Actualmente ... asiste al preescolar, escuela, colegio o universidad?
+;;1 Sí
+;;2 No
+P6175;El establecimiento al que asiste ... ¿es oficial?;3. El establecimiento al que asiste.... ¿es oficial?
+;;1 Sí
+;;2 No
+P6210;¿cuál es el nivel educativo más alto alcanzado por ... Y el último año o grado aprobado en este nivel?;4. ¿Cuál es el nivel educativo más alto alcanzado por .... y el último año o grado aprobado en este nivel?
+;;a. Ninguno
+;;b. Preescolar
+;;c. Básica primaria (1o - 5o)
+;;d. Básica secundaria (6o - 9o)
+;;e. Media (10o - 13o)
+;;f. Superior o universitaria
+;;g. No sabe, no informa
+P6210s1;Grado;4. ¿Cuál es el nivel educativo más alto alcanzado por .... y el último año o grado aprobado en este nivel?
+;;Grado
+P6220;¿cuál es el título o diploma de mayor nivel educativo que usted ha recibido?;5. ¿Cuál es el título o diploma de mayor nivel educativo que Usted ha recibido?
+;;a. Ninguno
+;;b. Bachiller
+;;c. Técnico o tecnológico
+;;d. Universitario
+;;e. Postgrado
+;;f. No sabe, no informa
+Clase;Clase;Clase
+;;1 Urbano
+;;2 Rural
+Esc;Escolaridad;Años de escolaridad
+Mes;Mes;Mes
+p6269;¿Se graduó usted de una escuela normal superior?;6. ¿Se graduó usted de una escuela normal superior?
+;;1. Si
+;;2. No
+Dpto;Departamento;Departamento
+;;05 Antioquia
+;;08 Atlántico
+;;13 Bolívar
+;;15 Boyacá
+;;17 Caldas
+;;18 Caquetá
+;;19 Cauca
+;;20 César
+;;23 Córdoba
+;;25 Cundinamarca
+;;27 Chocó
+;;41 Huila
+;;44 La guajira
+;;47 Magdalena
+;;50 Meta
+;;52 Nariño
+;;54 Norte de santander
+;;63 Quindío
+;;66 Risaralda
+;;68 Santander
+;;70 Sucre
+;;73 Tolima
+;;76 Valle del cauca
+Fex_c_2011;Factor de expansión;Factor de expansión

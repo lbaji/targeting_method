@@ -1,0 +1,128 @@
+Name;Label;Question
+DIRECTORIO;Directorio;Directorio
+SECUENCIA_P;Secuencia_p;SECUENCIA_P
+ORDEN;Orden;Orden
+HOGAR;Hogar;Hogar
+REGIS;Registro de la encuesta;Registro de la encuesta
+AREA;Area;Àrea
+;;05 Medellín
+;;08 Barranquilla
+;;11 Bogotá, d.C
+;;13 Cartagena
+;;17 Manizales
+;;23 Montería
+;;50 Villavicencio
+;;52 Pasto
+;;54 Cúcuta
+;;66 Pereira
+;;68 Bucaramanga
+;;73 Ibagué
+;;76 Cali
+P7250;¿durante cuántas semanas ha estado o estuvo ... Buscando trabajo?;1. ¿Durante cuántas semanas ha estado o estuvo...... buscando trabajo?
+;;Semanas ______________
+P7260;Si le hubiera resultado un trabajo la semana pasada, ¿cuántas horas a la semana estaba disponible para trabajar?;2. Si le hubiera resultado un trabajo la semana pasada, ¿ cuántas horas a la semana estaba disponible para trabajar?
+;;Horas semanales __________________
+P7280;Ha buscado trabajo como:;4. Ha buscado trabajo como:
+;;a. Obrero o empleado de empresa particular
+;;b. Obrero o empleado del gobierno
+;;c. Empleado doméstico
+;;d. Trabajador por cuenta propia
+;;e. Patrón o empleador
+;;f. Trabajador familiar sin remuneración
+;;g. Trabajador sin remuneración en empresas de otros hogares
+;;h. Jornalero o peón
+;;i. Otro
+P7280S1;Otro, ¿cual?;4. Ha buscado trabajo como:
+;;¿cual? ________________
+P7310;¿... Ha buscado trabajo por primera vez o había trabajado antes por lo menos durante dos semanas consecutivas?;5.¿...... ha buscado trabajo por primera vez o había trabajado antes por lo menos durante dos semanas consecutivas?
+;;1 Primera vez
+;;2 Trabajó antes
+P7320;¿cuántas semanas hace que ...Dejó de trabajar por última vez?;6. ¿Cuántas semanas hace que....... dejó de trabajar por última vez?
+;;Semanas ______________
+P7350;En este último trabajo era:;9. En este último trabajo era:
+;;a. Obrero o empleado de empresa particular
+;;b. Obrero o empleado del Gobierno
+;;c. Empleado doméstico
+;;d. Trabajador por cuenta propia
+;;e. Patrón o empleador
+;;f. Trabajador familiar sin remuneración
+;;g. Trabajador sin remuneración en empresas de otros hogares
+;;h. Jornalero o peón
+;;i. Otro
+P7350S1;Otro, ¿cuál?;9. En este último trabajo era:
+;;¿cual? ________________
+P7360;¿cuántas personas en total tenía la empresa , negocio o finca, donde ... Trabaja?;10. ¿Cuántas personas en total tenía la empresa, negocio o finca, donde .... trabajaba?
+;;a. Trabajaba solo
+;;b. 2 a 3 personas
+;;c. 4 a 5 personas
+;;d. 6 a 10 personas
+;;e. 11 a 19 personas
+;;f. 20 a 30 personas
+;;g. 31 a 50 personas
+;;h. 51 a 100 personas
+;;i. 101 o más personas
+P9460;¿actualmente recibe subsidio de desempleo?;11. ¿Actualmente recibe subsidio de desempleo?
+;;1 Sí
+;;2 No
+;;9 No sabe, no informa
+P7390;En caso de enfermedad, ¿cómo cubriría los costos médicos y de medicamentos?;12. En caso de enfermedad, ¿cómo cubriría los costos médicos y de medicamentos?
+;;a. Es afiliado a un regimen subsidiado de salud o EPS
+;;b. Es beneficiario de un afiliado
+;;c. Con ahorros personales
+;;d. Con ayudas de los hijos o familiares
+;;e. Con otro tipo de seguro o cubrimiento
+;;f. Pidiendo dinero prestado
+;;g. No lo ha considerado
+;;h. No tiene recursos
+;;i. Otro
+P7390S1;Otro, ¿cuál?;12. En caso de enfermedad, ¿cómo cubriría los costos médicos y de medicamentos?
+;;¿cuál? ________________
+P7420;¿qué está haciendo usted para obtener recursos en caso de jubilación o para la vejez?;13. ¿Qué está haciendo Usted actualmente para mantenerse económicamente en su vejez?
+P7420S1;Aportar en un fondo de pensiones obligatorias;13. ¿Qué está haciendo Usted actualmente para mantenerse económicamente en su vejez?
+;;a. Aportar en un fondo de pensiones obligatorias
+P7420S2;Aportar en un fondo de pensiones voluntarias;13. ¿Qué está haciendo Usted actualmente para mantenerse económicamente en su vejez?
+;;b. Aportar en un fondo de pensiones voluntarias
+P7420S3;Ahorrando;13. ¿Qué está haciendo Usted actualmente para mantenerse económicamente en su vejez?
+;;c. Ahorrando
+P7420S4;Haciendo inversiones;13. ¿Qué está haciendo Usted actualmente para mantenerse económicamente en su vejez?
+;;d. Haciendo inversiones
+P7420S5;Pagando un seguro por su cuenta;13. ¿Qué está haciendo Usted actualmente para mantenerse económicamente en su vejez?
+;;e. Pagando un seguro por su cuenta
+P7420S6;Preparando a sus hijos para que puedan mantenerlo en su vejez;13. ¿Qué está haciendo Usted actualmente para mantenerse económicamente en su vejez?
+;;f. Preparando a sus hijos para que puedan mantenerlo en su vejez
+P7420S7;Otro;13. ¿Qué está haciendo Usted actualmente para mantenerse económicamente en su vejez?
+;;g. Otro
+P7420S7A1;¿cual?;13. ¿Qué está haciendo Usted actualmente para mantenerse económicamente en su vejez?
+;;¿cuál? ________________
+P7420S8;Nada;13. ¿Qué está haciendo Usted actualmente para mantenerse económicamente en su vejez?
+;;h. Nada
+P7422;¿recibió o ganó el mes pasado ingresos por concepto de trabajo?;14. ¿Recibió o ganó el mes pasado ingresos por concepto de trabajo?
+;;1 Sí
+;;2 No
+P7422S1;¿cuánto?;14. ¿Recibió o ganó el mes pasado ingresos por concepto de trabajo?
+;;a. ¿cuánto? $ ______________
+P1806;En caso de que le ofrecieran un empleo a ... ¿Cuál sería la remuneración o el salario mensual más bajo por el que aceptaría?;
+P1519;¿Está ... cotizando actualmente a un fondo de pensiones?;
+P1883;¿A cuál de los siguientes fondos cotiza actualmente:;
+OFICIO1;¿en que ocupación, oficio o labor ha buscado trabajo?;3. ¿En qué ocupación, oficio o labor ha buscado trabajo?
+OFICIO2;¿qué ocupación , oficio o labor realizo ... La última vez que trabajo?;7. ¿Qué ocupación, oficio o labor realizó ....... la última vez que trabajó?
+RAMA2D_D;¿a que actividad se dedicaba principalmente la empresa negocio, industria, oficina, firma o finca en la que realizo su ultimo trabajo?;8. ¿A qué actividad se dedicaba principalmente la empresa negocio, industria, oficina, firma o finca en la que…… realizó su último trabajo?
+DSI;Desocupados;Desocupados
+DSCY;Desempleo coyuntural;Desempleo Coyuntural
+RAMA4D_D;Rama de actividad;Rama de la actividad según la CIIU revisión 3 adaptada para Colombia
+MES;Mes;Mes
+DPTO;Departamento;Departamento
+;;05 Antioquia
+;;08 Atlántico
+;;11 Bogotá, d.C.
+;;13 Bolívar
+;;17 Caldas
+;;23 Córdoba
+;;50 Meta
+;;52 Nariño
+;;54 Norte de santander
+;;66 Risaralda
+;;68 Santander
+;;73 Tolima
+;;76 Valle del cauca
+fex_c_2011;Factor de expansión;Factor de expansión

@@ -1,0 +1,120 @@
+name;label;question;new_name;comment;new_dtype
+Directorio;Directorio;Directorio;directorio;What does that mean? Is there a better translation?;int
+Secuencia_p;Secuencia_p;Secuencia_p;secuencia_p;;int
+Orden;Orden;Orden;orden;;int
+Hogar;Hogar;Hogar;household;;int
+Regis;Registro de la encuesta;Registro de la encuesta;regis;;int
+P6016;Número de orden de la persona que proporciona la información;1. Número de orden de la persona que proporciona la información;orden_informant;What does that mean? Is there a better translation?;float
+P6020;Sexo;2. Sexo;sex;;category
+;;1 Hombre;;;
+;;2 Mujer;;;
+P6030;¿cuál es la fecha de nacimiento de … ?;3. ¿Cuál es la fecha de nacimiento de … ?;replied_birth_date;;category
+;;1 Si responde;;;
+;;2 No responde;;;
+P6030s1;Mes (mm):;3. ¿Cuál es la fecha de nacimiento de … ?;birth_month;;float
+;;Mes ____;;;
+P6030s3;Año (aaaa):;3. ¿Cuál es la fecha de nacimiento de … ?;birth_year;;float
+;;Año ____;;;
+P6040;¿cuántos años cumplidos tiene...? (si es menor de 1 año, escriba 00);4. ¿Cuántos años cumplidos tiene … ?;age;;float
+;;Si es menor de 1 año, escriba 00;;;
+P6050;¿cuál es el parentesco de ... Con el jefe o jefa del hogar?;5. ¿Cuál es el parentesco de ... con el jefe o jefa del hogar?;relationship_to_hh_head;;category
+;;a. Jefe (a) del hogar;;;
+;;b. Pareja, esposo(a), cónyuge, compañero(a);;;
+;;c. Hijo(a), hijastro(a);;;
+;;d. Nieto(a);;;
+;;e. Otro pariente;;;
+;;f. Empleado(a) del servicio doméstico y sus parientes;;;
+;;g. Pensionista;;;
+;;h. Trabajador;;;
+;;i. Otro no pariente;;;
+P6070;Actualmente:;6. Actualmente:;relationship_status;;category
+;;a. No esta casado(a) y vive en pareja hace menos de dos años;;;
+;;b. No esta casado (a) y vive en pareja hace dos años o más;;;
+;;c. Esta casado (a);;;
+;;d. Esta separado (a) o divorciado (a);;;
+;;e. Esta viudo (a);;;
+;;f. Esta soltero (a);;;
+P6090;¿... Está afiliado, es cotizante o es beneficiario de alguna entidad de seguridad social en salud?;1. ¿ ... está afiliado, es cotizante o es beneficiario de alguna entidad de seguridad social en salud? (Instituto de Seguros Sociales - ISS, Empresa Promotora de Salud - EPS o Administradora de Régimen Subsidiado - ARS);has_health_insurance;;category
+;;1 Sí;;;
+;;2 No;;;
+;;9 No sabe, no informa;;;
+P6140;¿anteriormente estuvo ... Afiliado, fue cotizante o beneficiario de alguna entidad de seguridad social en salud?;2. ¿ Anteriormente estuvo ... afiliado, fue cotizante o beneficiario de alguna entidad de seguridad social en salud? (Instituto de Seguros Sociales - ISS, Empresa Promotora de Salud - EPS o Administradora de Régimen Subsidiado - ARS);ever_had_health_insurance;Note, here the values look like integers, but are strings. ;category
+;;1 Sí;;;
+;;2 No;;;
+;;9 No sabe, no informa;;;
+P6150;¿cuántos meses hace que ... No está afiliado o no cotiza a la seguridad social en salud?;3. ¿Cuántos meses hace que ... no está afiliado o no cotiza a la seguridad social en salud?;months_uninsured;Here a space does probably mean not applicable and could also be coded as zero;float
+P6100;¿a cual de los siguientes regímenes de seguridad social en salud está afiliado:;4. ¿A cuál de los siguientes regímenes de seguridad social en salud está afiliado:;health_insurance_type;Note, here the values look like integers, but are strings. ;category
+;;a. Contributivo (EPS)?;;;
+;;b. Especial ? (Fuerzas Armadas, Ecopetrol, universidades públicas);;;
+;;c. Subsidiado? (EPS-S);;;
+;;d. No sabe, no informa;;;
+P6110;¿quién paga mensualmente por la afiliación de ...?;5. ¿Quién paga mensualmente por la afiliación de...?;insurance_payer;Note, here the values look like integers, but are strings. ;category
+;;a. ... paga una parte y otra la empresa o patrón;;;
+;;b. Le descuentan de la pensión;;;
+;;c. ... paga la totalidad de la afiliación;;;
+;;d. Paga completamente la empresa o patrón donde trabaja o trabajó;;;
+;;e. No paga, es beneficiario;;;
+;;f. No sabe, no informa;;;
+P6120;¿cuánto paga o cuánto le descuentan mensualmente? (si no sabe cuánto paga o cuanto le descuentan escriba 98);6. ¿Cuánto paga o cuánto le descuentan mensualmente?;monthly_own_health_insurance_cost;Note, here the values look like integers, but are strings. ;float
+;;Valor pagado o descontado $ ________________;;;
+P6125;¿en los últimos doce meses dejó de asistir al médico o no se hospitalizó, por no tener con que pagar estos servicios en la eps o ars?;7. ¿En los últimos doce meses dejó de asistir al médico o no se hospitalizó, por no tener con que pagar estos servicios en la EPS o ARS?;could_not_afford_doctor;;category
+;;1 Sí;;;
+;;2 No;;;
+;;9 No sabe, no informa;;;
+P6160;¿sabe leer y escribir?;1. ¿Sabe leer y escribir?;literate;Note, here the values look like integers, but are strings. ;category
+;;1 Sí;;;
+;;2 No;;;
+P6170;¿actualmente ... Asiste a la escuela, colegio o universidad?;2. ¿Actualmente ... asiste al preescolar, escuela, colegio o universidad?;in_education;Note, here the values look like integers, but are strings. ;category
+;;1 Sí;;;
+;;2 No;;;
+P6175;El establecimiento al que asiste ... ¿es oficial?;3. El establecimiento al que asiste.... ¿es oficial?;official_education;Note, here the values look like integers, but are strings. ;category
+;;1 Sí;;;
+;;2 No;;;
+P6210;¿cuál es el nivel educativo más alto alcanzado por ... Y el último año o grado aprobado en este nivel?;4. ¿Cuál es el nivel educativo más alto alcanzado por .... y el último año o grado aprobado en este nivel?;highest_degree;"7, which one would expect to correspnond to ""g"" and thus mean a  missing is not in the data. Instead there ar "" "" and ""9"". I interpret them as missing.  values look like integers but are strings";category
+;;a. Ninguno;;;
+;;b. Preescolar;;;
+;;c. Básica primaria (1o - 5o);;;
+;;d. Básica secundaria (6o - 9o);;;
+;;e. Media (10o - 13o);;;
+;;f. Superior o universitaria;;;
+;;g. No sabe, no informa;;;
+P6210s1;Grado;4. ¿Cuál es el nivel educativo más alto alcanzado por .... y el último año o grado aprobado en este nivel?;passed_year_in_highest_degree;Note, here the values look like integers, but are strings. ;float
+;;Grado;;;
+P6220;¿cuál es el título o diploma de mayor nivel educativo que usted ha recibido?;5. ¿Cuál es el título o diploma de mayor nivel educativo que Usted ha recibido?;highest_education_title;;category
+;;a. Ninguno;;;
+;;b. Bachiller;;;
+;;c. Técnico o tecnológico;;;
+;;d. Universitario;;;
+;;e. Postgrado;;;
+;;f. No sabe, no informa;;;
+Area;Area;Area;area;Needs manual recoding that differs between cabecera and area;category
+;;05 Medellín;;;
+;;08 Barranquilla;;;
+;;11 Bogotá, D.C;;;
+;;13 Cartagena;;;
+;;17 Manizales;;;
+;;23 Montería;;;
+;;50 Villavicencio;;;
+;;52 Pasto;;;
+;;54 Cúcuta;;;
+;;66 Pereira;;;
+;;68 Bucaramanga;;;
+;;73 Ibagué;;;
+;;76 Cali;;;
+Esc;Escolaridad;Años de escolaridad;schooling_years;;float
+Mes;Mes;Mes;month ;;int
+Dpto;Departamento;Departamento;department;;category
+;;05 Antioquia;;;
+;;08 Atlántico;;;
+;;11 Bogotá, D.C.;;;
+;;13 Bolívar;;;
+;;17 Caldas;;;
+;;23 Córdoba;;;
+;;50 Meta;;;
+;;52 Nariño;;;
+;;54 Norte de Santander;;;
+;;66 Risaralda;;;
+;;68 Santander;;;
+;;73 Tolima;;;
+;;76 Valle del Cauca;;;
+Fex_c_2011;Factor de expansión;Factor de expansión;factor_de_expansion;;float

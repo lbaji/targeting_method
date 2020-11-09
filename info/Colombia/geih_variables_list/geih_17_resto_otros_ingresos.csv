@@ -1,0 +1,143 @@
+Name;Label;Question
+DIRECTORIO;Directorio;Directorio
+SECUENCIA_P;Secuencia_p;SECUENCIA_P
+ORDEN;Orden;Orden
+HOGAR;Hogar;Hogar
+REGIS;Registro de la encuesta;Registro de la encuesta
+P7495;El mes pasado, ¿recibió pagos por concepto de arriendos o pensiones?;1. El mes pasado, ¿recibió pagos por concepto de arriendos y/o pensiones?
+;;1 Sí
+;;2 No
+P7500S1;El mes pasado recibió ... Pagos por concepto de:;2. ¿El mes pasado, recibió pagos por:
+;;a. Arriendos de casas, apartamentos, fincas, lotes, vehículos, equipos etc
+;;1 Sí
+;;2 No
+;;9 No sabe, no informa
+P7500S1A1;Valor mes pasado;2. ¿El mes pasado, recibió pagos por:
+;;a. Arriendos de casas, apartamentos, fincas, lotes, vehículos, equipos etc
+;;Valor mes pasado $ __________________
+P7500S2;Pensiones o jubilaciones por vejez, invalidez o sustitucíón pensional;2. ¿El mes pasado, recibió pagos por:
+;;b. Pensiones o jubilaciones por vejez, invalidez o sustitución pensional
+;;1 Sí
+;;2 No
+;;9 No sabe, no informa
+P7500S2A1;Valor mes pasado:;2. ¿El mes pasado, recibió pagos por:
+;;b. Pensiones o jubilaciones por vejez, invalidez o sustitución pensional
+;;Valor mes pasado $ __________________
+P7500S3;Pensión alimenticia por paternidad, divorcio o separa;2. ¿El mes pasado, recibió pagos por:
+;;c. Pensión alimenticia por paternidad, divorcio o separación
+;;1 Sí
+;;2 No
+;;9 No sabe, no informa
+P7500S3A1;Valor mes pasado:;2. ¿El mes pasado, recibió pagos por:
+;;c. Pensión alimenticia por paternidad, divorcio o separación
+;;Valor mes pasado $ __________________
+P7505;Durante los últimos doce meses recibió;"3. Durante los últimos doce meses, ¿recibió dinero de otros hogares, personas o instituciones no gubernamentales; dinero por intereses, dividendos, utilidades o cesantias?"
+;;1 Sí
+;;2 No
+P7510S1;Dinero de otros hogares o personas residentes en el país?;4. Durante los últimos doce meses recibió:
+;;a. Dinero de otros hogares a personas residentes en el pais?
+;;1 Sí
+;;2 No
+;;9 No sabe, no informa
+P7510S1A1;Valor;4. Durante los últimos doce meses recibió:
+;;a. Dinero de otros hogares a personas residentes en el pais?
+;;Valor $ ___________
+P7510S2;Dinero de otros hogares o personas residentes fuera del país?;4. Durante los últimos doce meses recibió:
+;;b. Dinero de otros hogares o personas residentes fuera del país?
+;;1 Sí
+;;2 No
+;;9 No sabe, no informa
+P7510S2A1;Valor;4. Durante los últimos doce meses recibió:
+;;b. Dinero de otros hogares o personas residentes fuera del país?
+;;Valor $ ___________
+P7510S3;Ayudas en dinero de instituciones en el país?;4. Durante los últimos doce meses recibió:
+;;c. Ayudas en dinero de instituciones del país o de fuera del país?
+;;1 Sí
+;;2 No
+;;9 No sabe, no informa
+P7510S3A1;Valor;4. Durante los últimos doce meses recibió:
+;;c. Ayudas en dinero de instituciones del país o de fuera del país?
+;;Valor $ ___________
+P750S1;Las ayudas en dinero fueron de : entidades privadas nacionales?;4c1.Las ayudas en dinero fueron de :
+;;entidades privadas nacionales?
+;;1. Si
+;;2. No
+;;9. No sabe, no informa
+P750S1A1;Valor;Valor
+P750S2;Las ayudas en dinero fueron de : entidades del gobierno ?;4c1.Las ayudas en dinero fueron de :
+;;entidades del gobierno ?
+;;1. Si
+;;2. No
+;;9. No sabe, no informa
+P750S2A1;Valor;Valor
+P1661S1;Las ayudas en dinero fueron de: Más Familias en Acción;4c1.Las ayudas en dinero fueron de: Más Familias en Acción
+P1661S1A1;valor;valor
+P1661S2;Las ayudas en dinero fueron de: Jóvenes en Acción;4c1.Las ayudas en dinero fueron de: Jóvenes en Acción
+P1661S2A1;valor;valor
+P1661S3;Las ayudas en dinero fueron de: Colombia mayor;4c1.Las ayudas en dinero fueron de: Colombia mayor
+P1661S3A1;valor;valor
+P1661S4;Las ayudas en dinero fueron de: otro cual?;4c1.Las ayudas en dinero fueron de: otro cual?
+P1661S4A1;valor;valor
+P1661S4A2;;
+P750S3;Las ayudas en dinero fueron de : entidades fuera del país;4c1.Las ayudas en dinero fueron de :
+;;entidades fuera del país ?
+;;1. Si
+;;2. No
+;;9. No sabe, no informa
+P750S3A1;Valor;Valor
+P750S4;Las ayudas en dinero fueron de : No sabe, no informa;Las ayudas en dinero fueron de :
+;;No sabe, no informa
+P7510S5;Durante los últimos doce meses recibió;4. Durante los últimos doce meses recibió:
+;;d. Dinero por intereses de prestamos o por CDT's, depósitos de ahorro, utilidades ganancias o dividendos por inversiones?
+;;1 Sí
+;;2 No
+;;9 No sabe, no informa
+P7510S5A1;Valor;4. Durante los últimos doce meses recibió:
+;;d. Dinero por intereses de prestamos o por CDT's, depósitos de ahorro, utilidades ganancias o dividendos por inversiones?
+;;Valor $ ___________
+P7510S6;Ingresos por concepto de cesantías y/o intereses a la cesatías;4. Durante los últimos doce meses recibió:
+;;e. Ingresos por concepto de cesantías y/o intereses a las cesantías?
+;;1 Sí
+;;2 No
+;;9 No sabe, no informa
+P7510S6A1;Valor;4. Durante los últimos doce meses recibió:
+;;e. Ingresos por concepto de cesantías y/o intereses a las cesantías?
+;;Valor $ ___________
+P7510S7;Durante los últimos doce meses recibió;4. Durante los últimos doce meses recibió:
+;;f. Dinero de otras fuentes diferentes a las anteriores (ingresos por ganancias en juegos de azar, chances, loterias, indemnizaciones, liquidaciones, venta de propiedades, acciones, vehículos, etc.)
+;;1 Sí
+;;2 No
+;;9 No sabe, no informa
+P7510S7A1;Valor;4. Durante los últimos doce meses recibió:
+;;f. Dinero de otras fuentes diferentes a las anteriores (ingresos por ganancias en juegos de azar, chances, loterias, indemnizaciones, liquidaciones, venta de propiedades, acciones, vehículos, etc.)
+;;Valor $ ___________
+clase;Clase;Clase
+;;1 Urbano
+;;2 Rural
+MES;Mes;Mes
+DPTO;Departamento;Departamento
+;;05 Antioquia
+;;08 Atlántico
+;;13 Bolívar
+;;15 Boyacá
+;;17 Caldas
+;;18 Caquetá
+;;19 Cauca
+;;20 Cesar
+;;23 Córdoba
+;;25 Cundinamarca
+;;27 Chocó
+;;41 Huila
+;;44 La guajira
+;;47 Magdalena
+;;50 Meta
+;;52 Nariño
+;;54 Norte de santander
+;;63 Quindio
+;;66 Risaralda
+;;68 Santander
+;;70 Sucre
+;;73 Tolima
+;;76 Valle del cauca
+;;76 Valle del cauca
+fex_c_2011;Factor de expansión;Factor de expansión

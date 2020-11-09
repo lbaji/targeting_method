@@ -1,0 +1,280 @@
+Name;Label;Question
+Directorio;Directorio;Directorio
+Secuencia_p;Secuencia_p;Secuencia_p
+P5000;Incluyendo sala-comedor ¿de cuántos cuartos en total dispone este hogar?;1. Incluyendo sala-comedor ¿de cuántos cuartos en total dispone este hogar?
+P5010;¿en cuántos de esos cuartos duermen las personas de este hogar?;2. ¿En cuántos de esos cuartos duermen las personas de este hogar?
+P5020;El servicio sanitario que utiliza el hogar es:;3. El servicio sanitario que utiliza el hogar es:
+;;a. Inodoro conectado a alcantarillado
+;;b. Inodoro conectado a pozo séptico
+;;c. Inodoro sin conexión
+;;d. Letrina
+;;e. Bajamar
+;;f. No tiene servicio sanitario
+P5030;El servicio sanitario del hogar es:;4. El servicio sanitario del hogar es:
+;;a. De uso exclusivo de las personas del hogar
+;;b. Compartido con personas de otros hogares
+P5040;¿cómo eliminan principalmente la basura en este hogar?;5. ¿Cómo eliminan principalmente la basura en este hogar?
+;;a. Por recolección pública o privada
+;;b. La tiran a un río, quebrada, caño o laguna
+;;c. La tiran a un patio, lote, zanja o baldío
+;;d. La queman o entierran
+;;e. La eliminan de otra forma
+P5050;¿de dónde obtiene principalmente este hogar el agua para consumo humano?;6. ¿De dónde obtiene principalmente este hogar el agua para consumo humano?
+;;a. De acueducto por tubería
+;;b. De otra fuente por tubería
+;;c. De pozo con bomba
+;;d. De pozo sin bomba, aljibe, jagüey o barreno
+;;e. Aguas lluvias
+;;f. Río, quebrada, nacimiento ó manantial
+;;g. De pila pública
+;;h. Carro tanque
+;;i. Aguatero
+;;j. Agua embotellada o en bolsa
+P5070;¿en cuál de los siguientes lugares, preparan los alimentos las personas de este hogar:;7. ¿En cuál de los siguientes lugares, preparan los alimentos las personas de este hogar:
+;;a. En un cuarto usado solo para cocinar?
+;;b. En un cuarto usado también para dormir?
+;;c. En una sala comedor con lavaplatos?
+;;d. En una sala comedor sin lavaplatos?
+;;e. En un patio, corredor, enramada, al aire libre?
+;;f. En ninguna parte, no preparan alimentos?
+P5080;¿con qué energía o combustible cocinan principalmente en este hogar?;8. ¿Con qué energía o combustible cocinan principalmente en este hogar?
+;;a. Electricidad
+;;b. Petróleo, gasolina, kerosene, alcohol
+;;c. Gas natural conectado a red pública
+;;d. Gas propano en cilindro o pipeta
+;;e. Leña, madera o carbón de leña
+;;f. Carbón mineral
+;;g. Materiales de desecho
+P5090;La vivienda ocupada por este hogar es:;9. La vivienda ocupada por este hogar es:
+;;a. Propia, totalmente pagada
+;;b. Propia, la están pagando
+;;c. En arriendo o subarriendo
+;;d. En usufructo
+;;e. Posesión sin titulo (Ocupante de hecho) ó propiedad colectiva
+;;f. Otra
+P5090s1;¿cuál?;9. La vivienda ocupada por este hogar es:
+;;¿cuál?___________________
+P5100;¿cuánto pagan mensualmente por cuota de amortización?;9A. ¿Cuánto pagan mensualmente por cuota de amortización?
+;;Valor $ _________________
+P5110;Si usted quisiera vender esta vivienda, ¿cuál sería el precio mínimo en que la vendería?;10. Si Usted quisiera vender esta vivienda, ¿cuál sería el precio mínimo en que la vendería?
+;;Valor $ _________________
+P5130;Si tuviera que pagar el arriendo por esta vivienda, ¿cuánto estima que tendria que pagar mensualmente?;11. Si tuviera que pagar arriendo por esta vivienda, ¿cuánto estima que tendría que pagar mensualmente?
+;;Valor $ _________________
+P5140;¿cuánto pagan mensualmente por arriendo?;12. ¿Cuánto pagan mensualmente por arriendo?
+;;Excluya el pago de administración y/o celaduría
+;;Valor $ _________________
+P5210s1;Servicio de teléfono fijo;13. ¿Cuáles de los siguientes servicios o bienes en uso, posee este hogar?
+;;a. Servicio de teléfono fijo
+;;1 Sí
+;;2 No
+P5210s2;Servicio de televisión por subscripción cable o antena parabólica;13. ¿Cuáles de los siguientes servicios o bienes en uso, posee este hogar?
+;;b. Servicio de televisión por suscripción cable o antena parabólica
+;;1 Sí
+;;2 No
+P5210s3;Servicio de internet;13. ¿Cuáles de los siguientes servicios o bienes en uso, posee este hogar?
+;;c. Servicio de Internet
+;;1 Sí
+;;2 No
+P5210s4;Máquina lavadora de ropa;13. ¿Cuáles de los siguientes servicios o bienes en uso, posee este hogar?
+;;d. Máquina lavadora de ropa
+;;1 Sí
+;;2 No
+P5210s5;Nevera o refrigerador;13. ¿Cuáles de los siguientes servicios o bienes en uso, posee este hogar?
+;;e. Nevera o refrigerador
+;;1 Sí
+;;2 No
+P5210s6;Licuadora;13. ¿Cuáles de los siguientes servicios o bienes en uso, posee este hogar?
+;;f. Licuadora
+;;1 Sí
+;;2 No
+P5210s7;Estufa eléctrica o de gas;13. ¿Cuáles de los siguientes servicios o bienes en uso, posee este hogar?
+;;g. Estufa eléctrica o de gas
+;;1 Sí
+;;2 No
+P5210s8;Horno eléctrico o de gas;13. ¿Cuáles de los siguientes servicios o bienes en uso, posee este hogar?
+;;h. Horno eléctrico o de gas
+;;1 Sí
+;;2 No
+P5210s9;Horno microondas;13. ¿Cuáles de los siguientes servicios o bienes en uso, posee este hogar?
+;;i. Horno microondas
+;;1 Sí
+;;2 No
+P5210s10;Calentador de agua eléctrico o de gas o ducha eléctrica;13. ¿Cuáles de los siguientes servicios o bienes en uso, posee este hogar?
+;;j. Calentador de agua eléctrico o de gas o ducha eléctrica
+;;1 Sí
+;;2 No
+P5210s11;Televisor a color;13. ¿Cuáles de los siguientes servicios o bienes en uso, posee este hogar?
+;;k. Televisor a color
+;;1 Sí
+;;2 No
+P5210s14;Dvd;13. ¿Cuáles de los siguientes servicios o bienes en uso, posee este hogar?
+;;l. DVD
+;;1 Sí
+;;2 No
+P5210s15;Equipo de sonido;13. ¿Cuáles de los siguientes servicios o bienes en uso, posee este hogar?
+;;m. Equipo de sonido
+;;1 Sí
+;;2 No
+P5210s16;Computador (para uso del hogar);13. ¿Cuáles de los siguientes servicios o bienes en uso, posee este hogar?
+;;n. Computador para uso del hogar
+;;1 Sí
+;;2 No
+P5210s17;Aspiradora / brilladora;13. ¿Cuáles de los siguientes servicios o bienes en uso, posee este hogar?
+;;o. Aspiradora / brilladora
+;;1 Sí
+;;2 No
+P5210s18;Aire acondicionado;13. ¿Cuáles de los siguientes servicios o bienes en uso, posee este hogar?
+;;p. Aire acondicionado
+;;1 Sí
+;;2 No
+P5210s19;Ventilador o abanico;13. ¿Cuáles de los siguientes servicios o bienes en uso, posee este hogar?
+;;q. Ventilador o abanico
+;;1 Sí
+;;2 No
+P5210s20;Bicicleta;13. ¿Cuáles de los siguientes servicios o bienes en uso, posee este hogar?
+;;r. Bicicleta
+;;1 Sí
+;;2 No
+P5210s21;Motocicleta;13. ¿Cuáles de los siguientes servicios o bienes en uso, posee este hogar?
+;;s. Motocicleta
+;;1 Sí
+;;2 No
+P5210s22;Carro particular;13. ¿Cuáles de los siguientes servicios o bienes en uso, posee este hogar?
+;;t. Carro particular
+;;1 Sí
+;;2 No
+P5210s24;Casa, apartamento o finca de recreo;13. ¿Cuáles de los siguientes servicios o bienes en uso, posee este hogar?
+;;u. Casa, apartamento o finca de recreo
+;;1 Sí
+;;2 No
+P5220;¿en este hogar algún o algunos de sus miembro(s) tiene teléfono celular?;14. ¿ En este hogar algún o algunos de sus miembros tiene teléfono celular propio?
+;;1 Sí
+;;2 No
+P5220s1;¿cuántas personas?;14. ¿Cuántas personas?
+P6006;¿alguna o algunas de las personas que menciono, residen la mayor parte del tiempo en otra parte?;2. ¿Alguna o algunas de las PERSONAS QUE ME MENCIONO, RESIDEN LA MAYOR PARTE DEL TIEMPO EN OTRA PARTE?
+;;1 Sí
+;;2 No
+P6008;Total de personas en el hogar:;3. Total de personas en el hogar
+P6007;¿alguna persona que consideren jefe del hogar está ausente temporalmente por razones de trabajo o estudio?;4. ¿Alguna persona que consideren jefe del hogar reside la mayor parte del tiempo en otro sitio por razones de trabajo o estudio?
+;;1 Sí
+;;2 No
+P6007s1;Parentesco con el jefe actual;4. Parentesco con el Jefe Actual
+;;1 Cónyuge
+;;2 Hijo e Hija
+;;3 Padre o Madre
+;;4 Otro pariente
+;;5 Otro no pariente
+Hogar;Hogar;Hogar
+P4000;Tipo de vivienda;1. Tipo de vivienda
+;;a. Casa
+;;b. Apartamento
+;;c. Cuarto (s) en inquilinato
+;;d. Cuarto (s) en otro tipo de estructura
+;;e. Vivienda indígena
+;;f. Otra vivienda (carpa, vagón, embarcación, cueva, refugio natural, etc.)
+P4010;¿cuál es el material predominante de las paredes exteriores de la vivienda?;2. ¿Cuál es el material predominante de las paredes exteriores de la vivienda?
+;;a. Ladrillo, bloque, material prefabricado, piedra
+;;b. Madera pulida
+;;c. Adobe o tapia pisada
+;;d. Bahareque
+;;e. Madera burda, tabla, tablón
+;;f. Guadua
+;;g. Caña, esterilla, otro tipo de material vegetal
+;;h. Zinc, tela, cartón, latas, desechos, plástico
+;;i. Sin paredes
+P4020;¿cuál es el material predominante de los pisos de la vivienda?;3. ¿Cuál es el material predominante de los pisos de la vivienda?
+;;a. Tierra, arena
+;;b. Cemento, gravilla
+;;c. Madera burda, tabla, tablón, otro vegetal
+;;d. Baldosín, ladrillo, vinisol, otros materiales sintéticos
+;;e. Mármol
+;;f. Madera pulida
+;;g. Alfombra o tapete de pared a pared
+P4030s1;Energía eléctrica;4. ¿Con cuáles de los siguientes servicios cuenta la vivienda?
+;;a. Energía eléctrica
+;;1 Sí
+;;2 No
+P4030s1a1;Estrato para tarifa;4a. Estrato para tarifa
+;;1 Bajo - Bajo
+;;2 Bajo
+;;3 Medio - Bajo
+;;4 Medio
+;;5 Medio - Alto
+;;6 Alto
+;;9 No sabe o cuenta con planta eléctrica
+;;0 Conexión Pirata
+P4030s2;Gas natural conectado a red pública;4. ¿Con cuáles de los siguientes servicios cuenta la vivienda?
+;;b. Gas natural conectado a red pública
+;;1 Sí
+;;2 No
+P4030s3;Alcantarillado;4. ¿Con cuáles de los siguientes servicios cuenta la vivienda?
+;;c. Alcantarillado
+;;1 Sí
+;;2 No
+P4030s4;Recolección de basuras;4. ¿Con cuáles de los siguientes servicios cuenta la vivienda?
+;;d. Recolección de basuras
+;;1 Sí
+;;2 No
+P4030s4a1;Veces por semana;4d. Veces por semana
+P4030s5;Acueducto;4. ¿Con cuáles de los siguientes servicios cuenta la vivienda?
+;;e. Acueducto
+;;1 Sí
+;;2 No
+P4040;¿el agua del acueducto llega las 24 horas al día durante los siete días a la semana?;5. ¿El agua del acueducto llega las 24 horas del día, durante los siete días de la semana?
+;;1 Sí
+;;2 No
+Regis;Registro de la encuesta;Registro de la encuesta
+Clase;Clase;Clase
+;;1 Urbano
+;;2 Rural
+Mes;Mes;Mes
+Dpto;Departamento;Departamento
+;;05 Antioquia
+;;08 Atlántico
+;;11 Bogotá, d.C.
+;;13 Bolívar
+;;15 Boyacá
+;;17 Caldas
+;;18 Caquetá
+;;19 Cauca
+;;20 Cesar
+;;23 Córdoba
+;;25 Cundinamarca
+;;27 Chocó
+;;41 Huila
+;;44 La guajira
+;;47 Magdalena
+;;50 Meta
+;;52 Nariño
+;;54 Norte de santander
+;;63 Quindio
+;;66 Risaralda
+;;68 Santander
+;;70 Sucre
+;;73 Tolima
+;;76 Valle del cauca
+Fex_c_2011;Factor de expansión;Factor de expansión
+Area;Area;Area
+;;05 Antioquia
+;;08 Atlántico
+;;11 Bogotá, d.C.
+;;13 Bolívar
+;;15 Boyacá
+;;17 Caldas
+;;18 Caquetá
+;;19 Cauca
+;;20 César
+;;23 Córdoba
+;;27 Chocó
+;;41 Huila
+;;44 La guajira
+;;47 Magdalena
+;;50 Meta
+;;52 Nariño
+;;54 Norte de santander
+;;63 Quindío
+;;66 Risaralda
+;;68 Santander
+;;70 Sucre
+;;73 Tolima
+;;76 Valle del cauca

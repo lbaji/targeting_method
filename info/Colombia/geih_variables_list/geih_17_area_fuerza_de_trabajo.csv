@@ -1,0 +1,104 @@
+Name;Label;Question
+DIRECTORIO;Directorio;Directorio
+SECUENCIA_P;Secuencia_p;Secuencia_p
+ORDEN;Orden;Orden
+HOGAR;Hogar;Hogar
+REGIS;Registro de la encuesta;Registro de la encuesta
+AREA;Area;Area
+;;05 Medellín
+;;08 Barranquilla
+;;11 Bogotá, D.C
+;;13 Cartagena
+;;17 Manizales
+;;23 Montería
+;;50 Villavicencio
+;;52 Pasto
+;;54 Cúcuta
+;;66 Pereira
+;;68 Bucaramanga
+;;73 Ibagué
+;;76 Cali
+P6290;¿qué hizo principalmente en las ultimas cuatro semanas ... Para conseguir un trabajo o instalar un negocio?;7. ¿Qué hizo ... principalmente en las ÚLTIMAS CUATRO SEMANAS para conseguir un trabajo o instalar un negocio?
+;;a. Pidió ayuda a familiares, amigos, colegas
+;;b. Visitó, llevó o envió hojas de vida a empresas o empleadores
+;;c. Visitó, llevó o envió hojas de vida a bolsas de empleo o intermediarios
+;;d. Puso o consulto avisos clasificados
+;;e. Se presentó a convocatorias
+;;f. Hizo preparativos para iniciar un negocio
+;;g. Otro medio
+;;h. No sabe, no informa
+P6290S1;¿cuál?;7. ¿Qué hizo ... principalmente en las ÚLTIMAS CUATRO SEMANAS para conseguir un trabajo o instalar un negocio?
+;;¿cuál? __________________
+P6230;Registre el número de orden de la persona que suministra la información;1. Registre el número de orden de la persona que suministra la información
+P6240;¿en que actividad ocupó ... La mayor parte del tiempo la semana pasada?;2. ¿En que actividad ocupó...... la mayor parte del tiempo la semana pasada?
+;;a. Trabajando
+;;b. Buscando trabajo
+;;c. Estudiando
+;;d. Oficios del hogar
+;;e. Incapacitado permanente para trabajar
+;;f. Otra actividad
+P6240S1;¿cuál?;2. ¿En que actividad ocupó...... la mayor parte del tiempo la semana pasada?
+;;¿cuál? ________________
+P6250;Además de lo anterior, ¿... Realizó la semana pasada alguna actividad paga por una hora o más?;3. Además de lo anterior, ¿.....realizó la semana pasada alguna actividad paga por una hora o más?
+;;1 Sí
+;;2 No
+P6260;Aunque.... no trabajó la semana pasada, por una hora o más en forma remunerada, ¿tenía durante esa semana algún trabajo o negocio por el que recibe ingresos;4. Aunque.... no trabajó la semana pasada, por una hora o más en forma remunerada, ¿tenía durante esa semana algún trabajo o negocio por el que recibe ingresos?
+;;1 Sí
+;;2 No
+P6270;¿... Trabajó la semana pasada en un negocio por una hora o mas sin que le pagaran?;5. ¿....trabajó la semana pasada en un negocio por UNA HORA O MÁS sin que le pagaran?
+;;1 Sí
+;;2 No
+P6280;En las ultimas 4 semanas ¿... Hizo alguna diligencia para conseguir un trabajo o instalar un negocio?;6. En las ÚLTIMAS 4 SEMANAS ¿.....hizo alguna diligencia para conseguir un trabajo o instalar un negocio?
+;;"(pidió ayuda a amigos, familiares, etc.; consultó una agencia de empleo; puso o contestó anuncios; llenó una solicitud; buscó recursos para instalar un negocio)"
+;;1 Sí
+;;2 No
+P6300;¿... Desea conseguir un trabajo remunerado o instalar un negocio?;8. ¿... desea conseguir un trabajo remunerado o instalar un negocio?
+;;1 Sí
+;;2 No
+P6310;Aunque ... Desea trabajar, ¿por qué motivo principal no hizo diligencias en las ultimas 4 semanas?;9. Aunque......desea trabajar, ¿por qué motivo principal no hizo diligencias para buscar un trabajo o instalar un negocio en las ULTIMAS 4 SEMANAS?
+;;a. Ya encontró trabajo
+;;b. No hay trabajo disponible en la ciudad ó región / No encuentra trabajo en su oficio o profesión
+;;c. Está esperando que lo llamen o esperando temporada alta
+;;d. No sabe como buscarlo
+;;e. Está cansado de buscar
+;;f. Carece de la experiencia necesaria
+;;g. No tiene recursos para instalar un negocio
+;;h. Los empleadores lo consideran muy joven o muy viejo
+;;i. Usted se considera muy joven o muy viejo
+;;j. Responsabilidades familiares
+;;k. Problemas de salud
+;;l. Está estudiando
+;;m. Otro
+P6310S1;Otro ¿cuál?;9. Aunque......desea trabajar, ¿por qué motivo principal no hizo diligencias para buscar un trabajo o instalar un negocio en las ULTIMAS 4 SEMANAS?
+;;¿cuál?___________
+P6320;Durante los últimos 12 meses ¿... Trabajó por lo menos 2 semanas consecutivas?;10. Durante los últimos 12 meses ¿…trabajó por lo menos 2 semanas consecutivas?
+;;1 Sí
+;;2 No
+P6330;Después de su último empleo, ¿... Ha hecho alguna diligencia para conseguir trabajo o instalar un negocio?;11. Después de su último empleo, ¿…..ha hecho alguna diligencia para conseguir trabajo o instalar un negocio?
+;;1 Sí
+;;2 No
+P6340;Durante los últimos 12 meses ¿... Ha hecho alguna diligencia para conseguir trabajo o instalar un negocio?;12. Durante los últimos 12 meses ¿…ha hecho alguna diligencia para conseguir trabajo o instalar un negocio?
+;;1 Sí
+;;2 No
+P6350;¿cuántos meses hace que ... Dejo de buscar trabajo por última vez? (solo acepta 1 a 12);13. ¿Cuántos meses hace que…dejó de buscar trabajo por última vez?
+;;Meses ____
+P6351;Si le hubiera resultado algún trabajo a ..., ¿estaba disponible la semana pasada para empezar a trabajar?;14. Si le hubiera resultado algún trabajo a …. ¿estaba disponible la semana pasada para empezar a trabajar?
+;;1 Sí
+;;2 No
+MES;Mes;Mes
+FT;Fuerza de trabajo;Fuerza de trabajo
+DPTO;Departamento;Departamento
+;;05 Antioquia
+;;08 Atlántico
+;;11 Bogotá, d.C.
+;;13 Bolívar
+;;17 Caldas
+;;23 Córdoba
+;;50 Meta
+;;52 Nariño
+;;54 Norte de santander
+;;66 Risaralda
+;;68 Santander
+;;73 Tolima
+;;76 Valle del cauca
+fex_c_2011;Factor de expansión;Factor de expansión

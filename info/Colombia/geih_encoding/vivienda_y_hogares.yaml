@@ -1,0 +1,278 @@
+area_city:
+  5: "Medellín"
+  8: "Barranquilla"
+  11: "Bogotá, d.C."
+  13: "Cartagena"
+  17: "Manizales"
+  23: "Montería"
+  50: "Villavicencio"
+  52: "Pasto"
+  54: "Cúcuta"
+  66: "Pereira"
+  68: "Bucaramanga"
+  73: "Ibagué"
+  76: "Cali"
+area_department:
+  5: "Antioquia"
+  8: "Atlántico"
+  11: "Bogotá, d.C."
+  13: "Bolívar"
+  15: "Boyacá"
+  17: "Caldas"
+  18: "Caquetá"
+  19: "Cauca"
+  20: "Cesar"
+  23: "Córdoba"
+  25: "Cundinamarca"
+  27: "Chocó"
+  41: "Huila"
+  44: "La guajira"
+  47: "Magdalena"
+  50: "Meta"
+  52: "Nariño"
+  54: "Norte de santander"
+  63: "Quindio"
+  66: "Risaralda"
+  68: "Santander"
+  70: "Sucre"
+  73: "Tolima"
+  76: "Valle del cauca"
+clase:
+  1: "urban"
+  2: "rural"
+dpto:
+  5: "Antioquia"
+  8: "Atlántico"
+  11: "Bogotá, d.C."
+  13: "Bolívar"
+  15: "Boyacá"
+  17: "Caldas"
+  18: "Caquetá"
+  19: "Cauca"
+  20: "Cesar"
+  23: "Córdoba"
+  25: "Cundinamarca"
+  27: "Chocó"
+  41: "Huila"
+  44: "La guajira"
+  47: "Magdalena"
+  50: "Meta"
+  52: "Nariño"
+  54: "Norte de santander"
+  63: "Quindio"
+  66: "Risaralda"
+  68: "Santander"
+  70: "Sucre"
+  73: "Tolima"
+  76: "Valle del cauca"
+p5000:
+  98: "np.nan"
+  99: "np.nan"
+p5010:
+  99: "np.nan"
+p5020:
+  1: "inodoro conectado a alcantarillado"
+  2: "inodoro conectado a pozo séptico"
+  3: "inodoro sin conexión"
+  4: "letrina"
+  5: "bajamar"
+  6: "no tiene servicio sanitario"
+p5030:
+  1: "de uso exclusivo de las personas del hogar"
+  2: "compartido con personas de otros hogares"
+p5040:
+  1: "por recolección pública o privada"
+  2: "la tiran a un río, quebrada, caño o laguna"
+  3: "la tiran a un patio, lote, zanja o baldío"
+  4: "la queman o entierran"
+  5: "la eliminan de otra forma"
+p5050:
+  1: "de acueducto por tubería"
+  2: "de otra fuente por tubería"
+  3: "de pozo con bomba"
+  4: "de pozo sin bomba, aljibe, jagüey o barreno"
+  5: "aguas lluvias"
+  6: "río, quebrada, nacimiento o manantial"
+  7: "de pila pública"
+  8: "carro tanque"
+  9: "aguatero"
+  10: "agua embotellada o en bolsa"
+p5070:
+  1: "en un cuarto usado solo para cocinar"
+  2: "en un cuarto usado también para dormir"
+  3: "en una sala comedor con lavaplatos"
+  4: "en una sala comedor sin lavaplatos"
+  5: "en un patio, corredor, enramada, al aire libre"
+  6: "en ninguna parte, no preparan alimentos"
+p5080:
+  1: "electricidad"
+  2: "petróleo, gasolina, kerosene, alcohol"
+  3: "gas natural conectado a red pública"
+  4: "gas propano en cilindro o pipeta"
+  5: "leña, madera o carbón de leña"
+  6: "carbón mineral"
+  7: "materiales de desecho"
+p5090:
+  1: "propia, totalmente pagada"
+  2: "propia, la están pagando"
+  3: "en arriendo o subarriendo"
+  4: "en usufructo"
+  5: "posesión sin titulo (ocupante de hecho) o propiedad colectiva"
+  6: "otra"
+p5090s1:
+  " ": "np.nan"
+p5100:
+  99: "np.nan"
+  98: "np.nan"
+p5110:
+  99: "np.nan"
+  98: "np.nan"
+p5130:
+  99: "np.nan"
+  98: "np.nan"
+p5140:
+  99: "np.nan"
+  98: "np.nan"
+p5210s1:
+  1: "yes"
+  2: "no"
+p5210s10:
+  1: "yes"
+  2: "no"
+p5210s11:
+  1: "yes"
+  2: "no"
+p5210s14:
+  1: "yes"
+  2: "no"
+p5210s15:
+  1: "yes"
+  2: "no"
+p5210s16:
+  1: "yes"
+  2: "no"
+p5210s17:
+  1: "yes"
+  2: "no"
+p5210s18:
+  1: "yes"
+  2: "no"
+p5210s19:
+  1: "yes"
+  2: "no"
+p5210s2:
+  1: "yes"
+  2: "no"
+p5210s20:
+  1: "yes"
+  2: "no"
+p5210s21:
+  1: "yes"
+  2: "no"
+p5210s22:
+  1: "yes"
+  2: "no"
+p5210s24:
+  1: "yes"
+  2: "no"
+p5210s3:
+  1: "yes"
+  2: "no"
+p5210s4:
+  1: "yes"
+  2: "no"
+p5210s5:
+  1: "yes"
+  2: "no"
+p5210s6:
+  1: "yes"
+  2: "no"
+p5210s7:
+  1: "yes"
+  2: "no"
+p5210s8:
+  1: "yes"
+  2: "no"
+p5210s9:
+  1: "yes"
+  2: "no"
+p5220:
+  1: "yes"
+  2: "no"
+p6006:
+  1: "yes"
+  2: "no"
+p6007:
+  1: "yes"
+  2: "no"
+p6007s1:
+  1: partner"
+  2: "child"
+  3: "parent"
+  4: "relative"
+  5: "non-relative"
+p4000:
+  1: "house"
+  2: "apartment"
+  3: "rented room(s)"
+  4: "room(s)"
+  5: "indigenous dwelling"
+  6: "other"
+p4010:
+  1: "ladrillo, bloque, material prefabricado, piedra"
+  2: "madera pulida"
+  3: "adobe o tapia pisada"
+  4: "bahareque"
+  5: "madera burda, tabla, tablón"
+  6: "guadua"
+  7: "caña, esterilla, otro tipo de material vegetal"
+  8: "zinc, tela, cartón, latas, desechos, plástico"
+  9: "sin paredes"
+p4020:
+  1: "tierra, arena"
+  2: "cemento, gravilla"
+  3: "madera burda, tabla, tablón, otro vegetal"
+  4: "baldosín, ladrillo, vinisol, otros materiales sintéticos"
+  5: "mármol"
+  6: "madera pulida"
+  7: "alfombra o tapete de pared a pared"
+p4030s1:
+  1: "yes"
+  2: "no"
+p4030s2:
+  1: "yes"
+  2: "no"
+p4030s3:
+  1: "yes"
+  2: "no"
+p4030s4:
+  1: "yes"
+  2: "no"
+p4030s5:
+  1: "yes"
+  2: "no"
+p4030s1a1:
+  1: "bajo - bajo"
+  2: "bajo"
+  3: "medio - bajo"
+  4: "medio"
+  5: "medio - alto"
+  6: "alto"
+  9: "no sabe o cuenta con planta eléctrica"
+  0: "conexión pirata"
+p4040:
+  1: "yes"
+  2: "no"
+
+
+
+
+
+
+
+
+
+
+
+
+

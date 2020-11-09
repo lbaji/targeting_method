@@ -1,0 +1,585 @@
+name;label;question;new_name;comment;new_dtype
+Directorio;Directorio;Directorio;directorio;What does that mean? Is there a better translation?;float
+Secuencia_p;Secuencia_p;Secuencia_p;secuencia_p;;float
+Orden;Orden;Orden;orden;;float
+Hogar;Hogar;Hogar;household;;float
+Regis;Registro de la encuesta;Registro de la encuesta;regis;;float
+Area;Area;Area;area;Needs manual recoding that differs between cabecera and area;category
+;;05 Medellín;;;
+;;08 Barranquilla;;;
+;;11 Bogotá, d.C;;;
+;;13 Cartagena;;;
+;;17 Manizales;;;
+;;23 Montería;;;
+;;50 Villavicencio;;;
+;;52 Pasto;;;
+;;54 Cúcuta;;;
+;;66 Pereira;;;
+;;68 Bucaramanga;;;
+;;73 Ibagué;;;
+;;76 Cali;;;
+P6440;¿para realizar este trabajo, tiene usted algún tipo de contrato?;4. ¿Para realizar este trabajo tiene ... algún tipo de contrato? (verbal o escrito);has_contract;;category
+;;1 Sí;;;
+;;2 No;;;
+P6450;¿el contrato es verbal o escrito?;5. ¿El contrato es verbal o escrito?;type_of_contract;;category
+;;a. Verbal;;;
+;;b. Escrito;;;
+;;c. No sabe, no informa;;;
+P6460;¿el contrato de trabajo de ... Es a término indefinido o a término fijo?;6. ¿El contrato de trabajo es a término indefinido o a término fijo?;duration_of_contract;;category
+;;a. A término Indefinido;;;
+;;b. A término fijo;;;
+;;c. No sabe, no informa;;;
+;;"Si no sabe el número de meses del contrato, escriba 99; si la duración del contrato es inferior a 15 días, escriba 00; de 15 días un mes, escriba 01; si la duración del contrato es de 98 meses o más escriba 98.";;;
+P6460s1;Número de meses;6. ¿El contrato de trabajo es a término indefinido o a término fijo? - b. A término fijo;duration_of_contract_months;;float
+;;Nro Meses ______________;;;
+P6400;La empresa o persona que contrato a ..., ¿es la misma empresa donde trabaja o presta sus servicios?;7. La empresa o persona que contrató a ...., ¿es la misma empresa donde trabaja o presta sus servicios?;works_where_employed;;category
+;;1 Si;;;
+;;2 No;;;
+;;9 No sabe, no informa;;;
+P6422;¿esta ..... Conforme con el tipo de contrato que tiene?;9. ¿Esta ..... Conforme con el tipo de contrato que tiene?;satisfied_w_contract;;category
+;;(De planta, por prestación de servicios, por labor terminada, etc);;;
+;;1 Sí;;;
+;;2 No;;;
+P6424s2;Prima de navidad?;10. ¿Por su contrato actual, recibe o tiene derecho a:;contractual_right_to_christmas_bonus;;category
+;;b. Prima de navidad?;;;
+;;1 Sí;;;
+;;2 No;;;
+P6424s3;Derecho de cesantia?;10. ¿Por su contrato actual, recibe o tiene derecho a:;contractual_right_to_unemployment_money;;category
+;;c. Derecho a cesantía?;;;
+;;1 Sí;;;
+;;2 No;;;
+P6424s1;Vacaciones con sueldo?;10. ¿Por su contrato actual, recibe o tiene derecho a:;contractual_right_to_paid_leave;;category
+;;a. Vacaciones con sueldo?;;;
+;;1 Sí;;;
+;;2 No;;;
+P6426;¿cuanto tiempo lleva ... Trabajando en esta empresa, negocio, industria, oficina, firma o finca de manera continua?;11. ¿Cuanto tiempo lleva ... trabajando en esta empresa, negocio, industria, oficina, firma o finca de manera continua?;months_working_at_current_employment;;float
+;;si es menos de un mes escriba 000;;;
+;;Meses ________;;;
+P6430s1;Otra cuál???;12. En este trabajo…..es: - i. Otro,;work_position_other;;str
+;;¿cual? ________________;;;
+P6480;¿por qué medio principal, ... Consiguió su empleo actual?;13. ¿Por qué medio principal, .... consiguió su empleo actual?;main_way_to_find_current_job;;category
+;;a. Pidió ayuda a familiares, amigos, colegas;;;
+;;b. Visitó, llevó o envió hojas de vida a empresas o empleadores;;;
+;;c. Visitó, llevó o envió hojas de vida a bolsas de empleo o intermediarios;;;
+;;d. Puso o consultó avisos clasificados;;;
+;;e. Por convocatorias;;;
+;;f. Por el sistema de información SENA;;;
+;;g. Otro medio;;;
+;;h. No sabe, no informa;;;
+P6480s1;¿cuál?;13. ¿Por qué medio principal, .... consiguió su empleo actual? - g. Otro medio;main_way_to_find_current_job_other;;str
+;;¿cuál? ___________;;;
+P6500;Antes de descuentos ¿cuánto ganó ... El mes pasado en este empleo?;14. Antes de descuentos ¿cuánto ganó .... el mes pasado en este empleo?;gross_wage_last_month;;float
+;;Valor mensual $_______________________;;;
+;;(incluya propinas y comisiones y excluya viáticos y pagos en especie);;;
+P6510;El mes pasado recibió ingresos por concepto de horas extras?;15. El mes pasado recibió ingresos por concepto de horas extras?;paid_extra_hours_last_month;;category
+;;1 Sí;;;
+;;2 No;;;
+;;9 No sabe, no informa;;;
+P6510s1;¿cuánto recibió?;15. El mes pasado recibió ingresos por concepto de horas extras? 1. Sí;paid_extra_hours_last_month_amount;;float
+;;a. ¿cuánto recibió? $ ___________________;;;
+P6510s2;¿incluyó este valor en los ingresos del mes pasado $__ que me declaró anteriormente?;15. El mes pasado recibió ingresos por concepto de horas extras?;paid_extra_hours_included_in_gross_wage;;category
+;;b. ¿Incluyó este valor en los ingresos del mes pasado ($____ ) que me declaró anteriormente?;;;
+;;1 Sí;;;
+;;2 No;;;
+P6590;Además del salario en dinero, ¿el mes pasado recibió alimentos como parte de pago por su trabajo?;16. Además del salario en dinero, ¿el mes pasado recibió alimentos como parte de pago por su trabajo?;food_as_part_of_wage_last_month;;category
+;;1 Sí;;;
+;;2 No;;;
+;;9 No sabe, no informa;;;
+P6590s1;¿en cuánto estima lo que recibió el mes pasado? (si recibió pero no sabe estimar el monto, escriba 98);16. Además del salario en dinero, ¿el mes pasado recibió alimentos como parte de pago por su trabajo? 1. Sí;food_as_part_of_wage_last_month_est_amount;;float
+;;a. ¿En cuánto estima lo que recibió?;;;
+;;$_______________;;;
+P6600;Además del salario en dinero, ¿el mes pasado recibió vivienda como parte de pago por su trabajo?;17. Además del salario en dinero, ¿el mes pasado recibió vivienda como parte de pago por su trabajo?;dwelling_as_part_of_wage_last_month;;category
+;;1 Sí;;;
+;;2 No;;;
+;;9 No sabe, no informa;;;
+P6600s1;¿en cuánto estima lo que recibió el mes pasado? (si recibió pero no sabe estimar el monto, escriba 98);17. Además del salario en dinero, ¿el mes pasado recibió vivienda como parte de pago por su trabajo? 1. Sí;dwelling_as_part_of_wage_last_month_est_amount;;float
+;;a. ¿En cuánto estima lo que recibió?;;;
+;;$_______________;;;
+P6610;¿normalmente ... Utiliza transporte de la empresa para desplazarse a su trabajo (bus o automóvil)?;18. ¿Normalmente... utiliza transporte de la empresa para desplazarse a su trabajo (bus o automóvil)?;employers_transport_to_go_to_work;;category
+;;1 Sí;;;
+;;2 No;;;
+;;9 No sabe, no informa;;;
+P6610s1;¿en cuánto estima lo que recibió el mes pasado? (si recibió pero no sabe estimar el monto, escriba 98);18. ¿Normalmente... utiliza transporte de la empresa para desplazarse a su trabajo (bus o automóvil)? 1. Sí;employers_transport_to_go_to_work_est_amount;;float
+;;a. ¿En cuánto estima lo que recibió?;;;
+;;$_______________;;;
+P6620;Además del salario en dinero, ¿el mes pasado... Recibió otros ingresos en especie por su trabajo (electrodomésticos, ropa, productos diferentes a alimentos o bonos tipo sodexho)?;19. Además del salario en dinero, ¿el mes pasado... recibió otros ingresos en especie por su trabajo(electrodomésticos, ropa, productos diferentes a alimentos o bonos tipo Sodexho)?;goods_or_benefits_as_wage_last_month;;category
+;;1 Sí;;;
+;;2 No;;;
+;;9 No sabe, no informa;;;
+P6620s1;¿en cuánto estima lo que recibió el mes pasado? (si recibió pero no sabe estimar el monto, escriba 98);19. Además del salario en dinero, ¿el mes pasado... recibió otros ingresos en especie por su trabajo(electrodomésticos, ropa, productos diferentes a alimentos o bonos tipo Sodexho)? 1. Sí;goods_or_benefits_as_wage_last_month_est_amount;;float
+;;a. ¿En cuánto estima lo que recibió?;;;
+;;$_______________;;;
+P6585s2a1;¿cuánto? (si recibió pero no sabe el monto, escriba 98)¿cuánto? (si recibió pero no sabe el monto, escriba 98);20. ¿Cuál o cuáles de los siguientes subsidios recibió ... el mes pasado: b. Auxilio o subsidio de transporte?;subsidy_for_transport_amount;;float
+;;a. ¿cuánto? $____________;;;
+P6585s3a1;¿cuánto? (si recibió pero no sabe el monto, escriba 98);20. ¿Cuál o cuáles de los siguientes subsidios recibió ... el mes pasado: c. Subsidio Familiar?;subsidy_for_children_amount;;float
+;;a. ¿cuánto? $____________;;;
+P6585s4a1;¿cuánto recibió? (si recibió pero no sabe el monto, escriba 98);20. ¿Cuál o cuáles de los siguientes subsidios recibió ... el mes pasado: d. Subsidio Educativo?;subsidy_for_education_amount;;float
+;;a. ¿cuánto? $____________;;;
+P6585s3a2;¿incluyo este valor en los ingresos del mes pasado que me declaró anteriormente?;20. ¿Cuál o cuáles de los siguientes subsidios recibió ... el mes pasado: c. Subsidio Familiar?;subsidy_for_children_included_in_gross_wage;;category
+;;b. ¿Incluyó este valor en los ingresos del mes pasado ($ ____) que me declaró anteriormente?;;;
+;;1 Sí;;;
+;;2 No;;;
+P6585s2a2;¿incluyo este valor en los ingresos del mes pasado que me declaró anteriormente?;20. ¿Cuál o cuáles de los siguientes subsidios recibió ... el mes pasado: b. Auxilio o subsidio de transporte?;subsidy_for_transport_included_in_gross_wage;;category
+;;b. ¿Incluyó este valor en los ingresos del mes pasado ($ ____) que me declaró anteriormente?;;;
+;;1 Sí;;;
+;;2 No;;;
+P6585s1a2;¿incluyo este valor en los ingresos del mes pasado que me declaró anteriormente?;20. ¿Cuál o cuáles de los siguientes subsidios recibió ... el mes pasado: a. Auxilio o subsidio de alimentación?;subsidy_for_food_included_in_gross_wage;;category
+;;b. ¿Incluyó este valor en los ingresos del mes pasado ($ ____) que me declaró anteriormente?;;;
+;;1 Sí;;;
+;;2 No;;;
+P6585s2;Auxilio o subsidio de transporte?;20. ¿Cuál o cuáles de los siguientes subsidios recibió ... el mes pasado:;subsidy_for_transport;;category
+;;b. Auxilio o subsidio de transporte?;;;
+;;1 Sí;;;
+;;2 No;;;
+;;9 No sabe, no informa;;;
+P6585s3;Subsidio familiar?;20. ¿Cuál o cuáles de los siguientes subsidios recibió ... el mes pasado:;subsidy_for_children;;category
+;;c. Subsidio Familiar?;;;
+;;1 Sí;;;
+;;2 No;;;
+;;9 No sabe, no informa;;;
+P6585s1a1;¿cuánto? (si recibió pero no sabe el monto, escriba 98);20. ¿Cuál o cuáles de los siguientes subsidios recibió ... el mes pasado: a. Auxilio o subsidio de alimentación?;subsidy_for_food_amount;;float
+;;a. ¿cuánto? $____________;;;
+P6585s4;Subsidio educativo?;20. ¿Cuál o cuáles de los siguientes subsidios recibió ... el mes pasado:;subsidy_for_education;;category
+;;d. Subsidio Educativo?;;;
+;;1 Sí;;;
+;;2 No;;;
+;;9 No sabe, no informa;;;
+P6585s1;Auxilio o subsidio de alimentación?;20. ¿Cuál o cuáles de los siguientes subsidios recibió ... el mes pasado:;subsidy_for_food;;category
+;;a. Auxilio o subsidio de alimentación?;;;
+;;1 Sí;;;
+;;2 No;;;
+;;9 No sabe, no informa;;;
+P6580;El mes pasado recibió ... Bonificaciones mensuales?;21. El mes pasado recibió ...:;monthly_bonus_last_month;;category
+;;b. Algún tipo de bonificación de carácter mensual?;;;
+;;1 Sí;;;
+;;2 No;;;
+;;9 No sabe, no informa;;;
+P6580s1;¿cuánto recibió el mes pasado?;21. El mes pasado recibió ...: b. Algún tipo de bonificación de carácter mensual?;monthly_bonus_last_month_amount;;float
+;;a. ¿cuánto? $____________;;;
+P6580s2;¿incluyó este valor en los ingresos del mes pasado que me declaró anteriormente ?;21. El mes pasado recibió ...: b. Algún tipo de bonificación de carácter mensual?;monthly_bonus_included_in_gross_wage;;category
+;;b. ¿Incluyó este valor en los ingresos del mes pasado ($ ____) que me declaró anteriormente?;;;
+;;1 Sí;;;
+;;2 No;;;
+P6630s3;Prima de vacaciones?;22. En los últimos 12 meses recibió:;leave_bonus_last_12_months;;category
+;;c. Prima de vacaciones?;;;
+;;1 Sí;;;
+;;2 No;;;
+P6630s4a1;¿cuánto recibió? (si recibió pero no sabe el monto, escriba 98);22. En los últimos 12 meses recibió: d. Viáticos permanentes y/o bonificaciones anuales?;travel_payments_or_boni_last_12_months_amount;;float
+;;a. ¿cuánto recibió? $___________;;;
+P6630s3a1;¿cuánto recibió? (si recibió pero no sabe el monto, escriba 98);22. En los últimos 12 meses recibió: c. Prima de vacaciones?;leave_bonus_last_12_months_amount;;float
+;;a. ¿cuánto recibió? $___________;;;
+P6630s2a1;¿cuánto recibió? (si recibió pero no sabe el monto, escriba 98);22. En los últimos 12 meses recibió: b. Prima de navidad?;christmas_bonus_last_12_months_amount;;float
+;;a. ¿cuánto recibió? $___________;;;
+P6630s1a1;¿cuánto recibió? (si recibió pero no sabe el monto, escriba 98);22. En los últimos 12 meses recibió: a. Prima de servicios?;service_bonus_last_12_months_amount;;float
+;;a. ¿cuánto recibió? $___________;;;
+P6630s4;Viáticos permanentes y/o bonificaciones anuales?;22. En los últimos 12 meses recibió:;travel_payments_or_boni_last_12_months;;category
+;;d. Viáticos permanentes y/o bonificaciones anuales?;;;
+;;1 Sí;;;
+;;2 No;;;
+P6630s2;Prima de navidad?;22. En los últimos 12 meses recibió:;christmas_bonus_last_12_months;;category
+;;b. Prima de navidad?;;;
+;;1 Sí;;;
+;;2 No;;;
+P6630s1;Prima de servicios?;22. En los últimos 12 meses recibió:;service_bonus_last_12_months;;category
+;;a. Prima de servicios?;;;
+;;1 Sí;;;
+;;2 No;;;
+P6640;¿la semana pasada trabajó usted horas extras remuneradas?;23. ¿La semana pasada ..... trabajó horas extras remuneradas?;worked_paid_extra_hours_last_week;;category
+;;1 Sí;;;
+;;2 No;;;
+P6765;En la semana pasada, ¿cuál de las siguientes formas de trabajo realizó:;25. En la semana pasada, ¿cuál de las siguientes formas de trabajo realizó:;work_type_last_week;;category
+;;a. Trabajó por honorarios o prestación de servicios?;;;
+;;b. Trabajó por obra?;;;
+;;c. Trabajó por piezas o a destajo? (satélite, maquila, etc);;;
+;;d. Trabajó por comisión únicamente?;;;
+;;e. Trabajó vendiendo por catálogo?;;;
+;;f. Trabajó en su oficio? (plomero, taxista, doméstica por días etc);;;
+;;g. Tiene un negocio de industria, comercio, servicios o una finca?;;;
+;;h. Otro;;;
+P6765s1;¿cuál?;25. En la semana pasada, ¿cuál de las siguientes formas de trabajo realizó:;work_type_last_week_other;;str
+;;¿Cuál ? _______________;;;
+P6772;¿....ha registrado el negocio ante alguna autoridad o entidad? (cámaras de comercio, alcaldías, rut, registro mercantil);26. ¿ ..... ha registrado el negocio ante alguna autoridad o entidad? (Cámaras de comercio, Alcaldías, RUT, registro mercantil);registed_business;;category
+;;1 Sí;;;
+;;2 No;;;
+P6750;¿cuál fue la ganancia neta o los honorarios netos de ... Esa actividad, negocio, profesión o finca, el mes pasado?;27. ¿Cuál fue la ganancia neta o los honorarios netos de ... en esa actividad, negocio, profesión o finca, el mes pasado ?;net_profits_last_month;;float
+;;Honorarios o ganancia neta en el mes pasado;;;
+;;Valor $_______________________;;;
+P6760;¿a cuántos meses corresponde lo que recibió?;28. ¿ A cuántos meses corresponde lo que recibió?;payment_corresponds_to_months;;float
+P550;¿cuál fue la ganancia neta del negocio o de la cosecha durante los últimos 12 meses?;28A. ¿Cuál fue la ganancia neta del negocio o de la cosecha durante los últimos doce meses?;net_profits_last_12_months;;float
+;;Honorarios o ganancia neta en los últimos doce meses;;;
+;;Valor $_______________________;;;
+;;SOLO PARA CENTROS POBLADOS Y ÁREA RURAL DISPERSA;;;
+P6780;Este trabajo es:;29. Este trabajo es:;periodicity_of_work;;category
+;;a. Ocasional? (De vez en cuando);;;
+;;b. Estacional? (En ciertas épocas del año, cosechas, temporadas);;;
+;;c. Permanente?;;;
+;;d. Otro?,;;;
+P6780s1;Otro?, especifique;29. Este trabajo es:;periodicity_of_work_other;;str
+;;d. Otro?, especifique ______________;;;
+P6790;¿cuántos meses trabajó en los últimos 12 meses?;30. ¿Cuántos meses trabajó en los últimos 12 meses?;months_worked_in_last_12_months;;float
+P6410;La empresa que contrato a..... Es:;7A. La empresa que contrato a … es:;type_of_company;;category
+;;a. Una empresa de servicios temporales;;;
+;;b. Una cooperativa de trabajo asociado;;;
+;;c. Una empresa asociativa de trabajo;;;
+;;d. Otra;;;
+P6640s1;¿cuántas?;23. ¿La semana pasada ..... trabajó horas extras remuneradas?;worked_paid_extra_hours_last_week_amount;;float
+;;1 Sí;;;
+;;¿cuántas?;;;
+P9440;¿su empleo actual lo obtuvo a través de páginas de internet?;13A. ¿Su empleo actual lo obtuvo a través de páginas de internet?;way_to_find_current_job_websites;;category
+;;1 Sí;;;
+;;2 No;;;
+P6630s6;Pagos por accidentes de trabajo;22. En los últimos 12 meses recibió:;payments_for_work_accidents;;category
+;;e. Pagos por accidentes de trabajo;;;
+;;1 Sí;;;
+;;2 No;;;
+P6630s6a1;Cuánto recibió;22. En los últimos 12 meses recibió: e. Pagos por accidentes de trabajo;payments_for_work_accidents_amount;;float
+;;a. ¿cuánto recibió? $___________;;;
+P6410s1;Otra ¿cuál?;7A. La empresa que contrato a … es:;type_of_company_other;;float
+;;¿Cuál? __________________;;;
+P6545s1;¿cuánto?;21. El mes pasado recibió ...: a. Primas? (técnica, de antigüedad, clima, orden público, otras, etc.);boni_last_month_amount;;float
+;;a. ¿cuánto? $____________;;;
+P6545;Primas(técnica, de antigüedad, clima, orden público, otras , etc);21. El mes pasado recibió ...:;boni_last_month;;category
+;;a. Primas? (técnica, de antigüedad, clima, orden público, otras, etc.);;;
+;;1 Sí;;;
+;;2 No;;;
+;;9 No sabe, no informa;;;
+P6545s2;¿incluyo esta valor en los ingresos del mes pasado que me declaro anteriormente?;21. El mes pasado recibió ...: a. Primas? (técnica, de antigüedad, clima, orden público, otras, etc.);boni_included_in_gross_wage;;category
+;;b. ¿Incluyó este valor en los ingresos del mes pasado ($ ____) que me declaró anteriormente?;;;
+;;1 Sí;;;
+;;2 No;;;
+P6585s4a2;¿incluyo este valor en los ingresos del mes pasado que me declaró anteriormente?;20. ¿Cuál o cuáles de los siguientes subsidios recibió ... el mes pasado: d. Subsidio Educativo?;subsidy_for_education_included_in_gross_wage;;category
+;;b. ¿Incluyó este valor en los ingresos del mes pasado ($ ____) que me declaró anteriormente?;;;
+;;1 Sí;;;
+;;2 No;;;
+P6773s1;Año renovación;26B. ¿Cuál fue el último año en el que renovó este registro?;last_renew_business_register_year;;float
+;;Año____;;;
+P6775;¿el negocio o actividad de …. Lleva contabilidad (realiza anualmente balance general y estado de perdidas y ganancias), o libro de registro diario de operaciones?;26C. ¿El negocio o actividad de …. lleva contabilidad (realiza anualmente balance general y estado de perdidas y ganancias), o libro de registro diario de operaciones?;business_with_accountancy;;category
+;;1 Sí;;;
+;;2 No;;;
+;;3 No aplica;;;
+;;9 No sabe;;;
+P6772s1;¿..ha renovado ese registro?;26A. ¿ … ha renovado ese registro?;ever_renew_business_register;;category
+;;1 Sí;;;
+;;2 No;;;
+P388;¿en qué departamento realiza … principalmente este trabajo?;2A.¿En qué departamento realiza … principalmente este trabajo?;works_mainly_in_department_1;;category
+;;5 - Antioquia;;;
+;;8 - Atlántico;;;
+;;11 - Bogotá;;;
+;;13 - Bolívar;;;
+;;15 - Boyacá;;;
+;;17 - Caldas;;;
+;;18 - Caquetá;;;
+;;19 - Cauca;;;
+;;20 - Cesar;;;
+;;23 - Córdoba;;;
+;;25 - Cundinamarca;;;
+;;27 - Chocó;;;
+;;41 - Huila;;;
+;;44 - Guajira;;;
+;;47 - Magdalena;;;
+;;50 - Meta;;;
+;;52 - Nariño;;;
+;;54 - Norte de Santander;;;
+;;63 - Quindío;;;
+;;66 - Risaralda;;;
+;;68 - Santander;;;
+;;70 - Sucre;;;
+;;73 - Tolima;;;
+;;76 - Valle del Cauca;;;
+;;81 - Arauca;;;
+;;85 - Casanare;;;
+;;86 - Putumayo;;;
+;;88 - San Andrés;;;
+;;99 - Vichada;;;
+P6800;¿cuántas horas a la semana trabaja normalmente ... En ese trabajo?;31. ¿Cuántas horas a la semana trabaja normalmente.... en ese trabajo ?;usual_weekly_hours_worked;;float
+;;Horas ____;;;
+P6810;¿cuál es la razón por la que trabaja normalmente menos de 40 horas a la semana?;32. ¿Cuál es la razón por la que trabaja normalmente menos de 40 horas a la semana?;works_less_than_40_hours_per_week_reason;;category
+;;a. Es lo único que ha conseguido pero quiere trabajar más horas;;;
+;;b. Es la jornada que se ajusta a sus necesidades;;;
+;;c. Otra,;;;
+P6810s1;¿cuál?;32. ¿Cuál es la razón por la que trabaja normalmente menos de 40 horas a la semana?;works_less_than_40_hours_per_week_reason_other;;str
+;;¿cuál?__________________;;;
+P6850;¿cuántas horas trabajó durante la semana pasada en este trabajo?;33. ¿Cuántas horas trabajó durante la semana pasada en este trabajo?;weekly_hours_worked_last_week;;float
+;;Horas _____;;;
+P6830;¿por qué razón de las horas que normalmente trabaja, hubo algunas que no trabajo la semana pasada?;34. ¿Por qué razón, de las horas que normalmente trabaja, hubo algunas que no trabajó la semana pasada?;worked_less_than_usual_last_week_reason;;category
+;;a. Enfermedad, permiso o licencia;;;
+;;b. Festivos;;;
+;;c. Vacaciones;;;
+;;d. Capacitación;;;
+;;e. Suspensión o terminación del empleo;;;
+;;f. Reducción de la actividad económica de la empresa;;;
+;;g. Otro,;;;
+P6830s1;Otro, ¿cuál?;34. ¿Por qué razón, de las horas que normalmente trabaja, hubo algunas que no trabajó la semana pasada?;worked_less_than_usual_last_week_reason_other;;str
+;;¿cuál? _____________;;;
+P6870;¿cuántas personas en total tiene la empresa, negocio, industria, oficina, firma o finca o sitio donde ... Trabaja?;36. ¿Cuántas personas en total tiene la empresa, negocio, industria, oficina, firma, finca o sitio donde ..... trabaja?;number_of_employees_1;;category
+;;a. Trabaja solo;;;
+;;b. 2 a 3 personas;;;
+;;c. 4 a 5 personas;;;
+;;d. 6 a 10 personas;;;
+;;e. 11 a 19 personas;;;
+;;f. 20 a 30 personas;;;
+;;g. 31 a 50 personas;;;
+;;h. 51 a 100 personas;;;
+;;i. 101 o más personas;;;
+P6880;Dónde realiza principalmente su trabajo:;37. Dónde realiza principalmente su trabajo:;main_workplace_1;;category
+;;a. En esta vivienda;;;
+;;b. En otras viviendas;;;
+;;c En kiosco - caseta;;;
+;;d En un vehículo;;;
+;;e. De puerta en puerta;;;
+;;f. Sitio al descubierto en la calle (ambulante y estacionario);;;
+;;g. Local fijo, oficina, fábrica, etc.;;;
+;;h. En el campo o área rural, mar o río;;;
+;;i. En una obra en construcción;;;
+;;j. En una mina o cantera;;;
+;;k. Otro,;;;
+P6880s1;Otro, ¿cuál?;37. Dónde realiza principalmente su trabajo:;main_work_place_1_other;;str
+;;¿cuál? _______________________;;;
+P6920;¿está ... Cotizando actualmente a un fondo de pensiones?;39. ¿Está... cotizando actualmente a un fondo de pensiones?;contributing_to_pensions_fund;both int and str;category
+;;1 Sí;;;
+;;2 No;;;
+;;3 Ya es pensionado;;;
+P6930;¿a cual de los siguientes fondos esta afiliado actualmente:;40. ¿A cuál de los siguientes fondos cotiza actualmente:;pensions_fund_type;;category
+;;a. Fondo privado?;;;
+;;b. ISS, Cajanal?;;;
+;;c. Regímenes especiales (FFMM, Ecopetrol etc)?;;;
+;;d. Fondo Subsidiado (Prosperar,etc.)?;;;
+P6940;¿quién paga mensualmente por la afiliación al fondo de pensiones de ...?;41. ¿ Quién paga mensualmente por la afiliación al fondo de pensiones de...?;pensions_fund_contributor;;category
+;;a. ...paga una parte y otra la empresa o patrón;;;
+;;b. ... paga la totalidad de la afiliación;;;
+;;c. Paga completamente la empresa ó patrón;;;
+;;d. No paga;;;
+P6960;¿cuántos años lleva afiliado al fondo de pensiones?;42. ¿Cuántos años lleva cotizando al fondo de pensiones?;years_contributing_to_pensions_fund;;float
+P6980;¿qué está haciendo usted actualmente para mantenerse económicamente en su vejez?;43. ¿Qué está haciendo Usted actualmente para mantenerse económicamente en su vejez?;old_age_finances;;float
+P6980s1;Aportar a un fondo de pensiones obligatorias;43. ¿Qué está haciendo Usted actualmente para mantenerse económicamente en su vejez?;old_age_finances_compulsory_pension_payment;;float
+;;a. Aportar en un fondo de pensiones obligatorias;;;
+P6980s2;Aportar a un fondo de pensiones voluntarias;43. ¿Qué está haciendo Usted actualmente para mantenerse económicamente en su vejez?;old_age_finances_voluntary_pension_payment;;float
+;;b. Aportar en un fondo de pensiones voluntarias;;;
+P6980s3;Ahorrando;43. ¿Qué está haciendo Usted actualmente para mantenerse económicamente en su vejez?;old_age_finances_savings;;float
+;;c. Ahorrando;;;
+P6980s4;Haciendo inversiones;43. ¿Qué está haciendo Usted actualmente para mantenerse económicamente en su vejez?;old_age_finances_investments;;float
+;;d. Haciendo inversiones;;;
+P6980s5;Pagando un seguro por su cuenta;43. ¿Qué está haciendo Usted actualmente para mantenerse económicamente en su vejez?;old_age_finances_private_pension_insurance;;float
+;;e. Pagando un seguro por su cuenta;;;
+P6980s6;Preparando a sus hijos para que puedan mantenerlo en su vejez;43. ¿Qué está haciendo Usted actualmente para mantenerse económicamente en su vejez?;old_age_finances_investments_in_children;;float
+;;f. Preparando a sus hijos para que puedan mantenerlo en su vejez;;;
+P6980s7;Otro,;43. ¿Qué está haciendo Usted actualmente para mantenerse económicamente en su vejez?;old_age_finances_other;;float
+;;g.;;;
+P6980s8;Nada;43. ¿Qué está haciendo Usted actualmente para mantenerse económicamente en su vejez?;old_age_finances_nothing;;float
+;;h. Nada;;;
+P6980s7a1;Otro, ¿cuál?;43. ¿Qué está haciendo Usted actualmente para mantenerse económicamente en su vejez?;old_age_finances_other_what;;str
+;;¿cuál? ________________;;;
+P6990;¿está afiliado por una empresa o individualmente a una aseguradora de riesgos profesionales (arp) (por accidentes de trabajo, enfermedad profesional etc)?;44. ¿Está afiliado por una empresa o individualmente a una Aseguradora de Riesgos Profesionales (ARP) (por accidentes de trabajo, enfermedad profesional etc)?;insured_against_occupational_risks;;category
+;;1 Sí;;;
+;;2 No;;;
+;;9 No sabe, no informa;;;
+P7020;Antes del actual trabajo, ¿... Tuvo otro trabajo?;45. Antes del actual trabajo, ¿... tuvo otro trabajo?;had_other_job_before_current_one;;category
+;;1 Sí;;;
+;;2 No;;;
+P7026;¿cuánto tiempo duró en su empleo anterior?;47. ¿Cuánto tiempo duró en su empleo anterior?;previous_job_duration;;float
+P7028;¿en su empleo anterior usted era:;48. ¿En su empleo anterior ..... era:;work_position_last_job;;category
+;;a. Obrero o empleado de empresa particular?;;;
+;;b. Obrero o empleado del gobierno?;;;
+;;c. Empleado doméstico?;;;
+;;d. Trabajador por cuenta propia?;;;
+;;e. Patrón o empleador?;;;
+;;f. Trabajador familiar sin remuneración?;;;
+;;g. Trabajador sin remuneración en empresas o negocios de otros hogares?;;;
+;;h. Jornalero o peón?;;;
+;;i. Otro,;;;
+P7028s1;Otro, ¿cuál?;48. ¿En su empleo anterior ..... era:;work_position_last_job_other;;str
+;;¿cual? ________________;;;
+P7040;Además de la ocupación principal, ¿... Tenía la semana pasada otro trabajo o negocio?;49. Además de la ocupación principal, ¿.... tenía la semana pasada otro trabajo o negocio?;secondary_jobs_last_week;;category
+;;1 Sí;;;
+;;2 No;;;
+P7045;¿cuántas horas trabajó ... La semana pasada en ese segundo trabajo?;50. ¿Cuántas horas trabajó ... la semana pasada en ese segundo trabajo?;hours_spent_on_secondary_job_last_week;;float
+P7050;En ese segundo trabajo ... Es:;51. En ese segundo trabajo…..es:;work_position_secondary_job;;category
+;;a. Obrero o empleado de empresa particular;;;
+;;b. Obrero o empleado del gobierno;;;
+;;c. Empleado doméstico;;;
+;;d. Trabajador por cuenta propia;;;
+;;e. Patrón o empleador;;;
+;;f. Trabajador familiar sin remuneración;;;
+;;g. Trabajador sin remuneración en empresas o negocios de otros hogares;;;
+;;h. Jornalero o peón;;;
+;;i. Otro,;;;
+P7050s1;Otro, ¿cuál?;51. En ese segundo trabajo…..es:;work_position_secondary_job_other;;str
+;;¿cuál? ________________;;;
+P7070;¿cuánto recibio o ganó ... El mes pasado en ese segundo trabajo?;52. ¿Cuánto recibió o ganó ….. el mes pasado en ese segundo trabajo o negocio?;monthly_wage_secondary_job;;float
+;;Valor mes pasado;;;
+;;$_______________________;;;
+P760;¿cuántos meses estuvo sin empleo o trabajo ... Entre el trabajo actual y el anterior?;46. ¿Cuántos meses estuvo sin empleo o trabajo ... entre el trabajo actual y el anterior?;months_unemployed;;float
+P9450;¿esta afiliado a una caja de compensación familiar?;44A. ¿Esta afiliado a una caja de compensación familiar?;joined_any_social_security_corporation;;category
+;;1 Sí;;;
+;;2 No;;;
+;;9 No sabe, no informa;;;
+P6915s1;¿cual?;38. ¿En caso de enfermedad como cubriría los costos médicos y los medicamentos?;disease_expenses_coverage_other;;str
+;;¿cuál? ________________;;;
+P6915;¿en caso de enfermedad como cubriría los costos médicos y los medicamentos?;38. ¿En caso de enfermedad como cubriría los costos médicos y los medicamentos?;disease_expenses_coverage;;category
+;;a. Es afiliado como cotizante a un régimen contributivo de salud (EPS);;;
+;;b. Es afiliado a un régimen subsidiado de salud;;;
+;;c. Es beneficiario de un afiliado;;;
+;;d. Con ahorros personales;;;
+;;e. Con ayudas de los hijos o familiares;;;
+;;f. Con otro tipo de seguro o cubrimiento;;;
+;;g. Pidiendo dinero prestado;;;
+;;h. Vendería su vivienda o bienes del hogar;;;
+;;i. Empeñaría bienes del hogar;;;
+;;j. No lo ha considerado;;;
+;;k. No tiene recursos;;;
+;;l. Otro,;;;
+P7075;¿cuántas personas en total tiene la empresa o negocio o finca donde trabaja?;53. ¿Cuántas personas en total tiene la empresa, negocio o finca donde ... trabaja?;number_of_employees_2;;category
+;;a. Trabaja solo;;;
+;;b. 2 a 5 personas;;;
+;;c. 6 a 10 personas;;;
+;;d. 11 y más personas;;;
+P7077;Dónde realiza principalmente su trabajo:;54. Dónde realiza principalmente su trabajo:;main_workplace_2;;category
+;;a. En su vivienda;;;
+;;b. En otras viviendas;;;
+;;c. En kiosko - caseta;;;
+;;d. En un vehículo;;;
+;;e. De puerta en puerta;;;
+;;f. Sitio al descubierto en la calle;;;
+;;g. Local fijo, oficina, fábrica, etc.;;;
+;;h. En el campo o área rural;;;
+P390;¿en qué departamento realiza … principalmente este trabajo?;P49A.¿En qué departamento realiza … principalmente este trabajo?;works_mainly_in_department_2;;category
+;;5 - Antioquia;;;
+;;8 - Atlántico;;;
+;;11 - Bogotá;;;
+;;13 - Bolívar;;;
+;;15 - Boyacá;;;
+;;17 - Caldas;;;
+;;18 - Caquetá;;;
+;;19 - Cauca;;;
+;;20 - Cesar;;;
+;;23 - Córdoba;;;
+;;25 - Cundinamarca;;;
+;;27 - Chocó;;;
+;;41 - Huila;;;
+;;44 - Guajira;;;
+;;47 - Magdalena;;;
+;;50 - Meta;;;
+;;52 - Nariño;;;
+;;54 - Norte de Santander;;;
+;;63 - Quindío;;;
+;;66 - Risaralda;;;
+;;68 - Santander;;;
+;;70 - Sucre;;;
+;;73 - Tolima;;;
+;;76 - Valle del Cauca;;;
+;;81 - Arauca;;;
+;;85 - Casanare;;;
+;;86 - Putumayo;;;
+;;88 - San Andrés;;;
+;;99 - Vichada;;;
+P7090;Además de la horas que trabaja actualmente ¿... Quiere trabajar más horas?;55. Además de las horas que trabaja actualmente ¿...... quiere trabajar más horas?;willing_to_work_more;;category
+;;1 Sí;;;
+;;2 No;;;
+P7100;¿cuántas horas adicionales puede trabajar ... A la semana?;56. ¿Cuántas horas adicionales puede trabajar....... a la semana?;possible_additional_working_hours_per_week;;float
+P7110;Durante las ultimas 4 semanas, ¿... Hizo diligencias para trabajar más horas?;57. Durante las ÚLTIMAS 4 SEMANAS, ¿ ...... hizo diligencias para trabajar más horas?;handled_petition_to_work_more_last_4_weeks;;category
+;;1 Sí;;;
+;;2 No;;;
+P7120;Si la semana pasada le hubiera resultado la posibilidad de trabajar más horas ¿estaba ... Disponible para hacerlo?;58. Si la semana pasada le hubiera resultado la posibilidad de trabajar más horas ¿ estaba...... disponible para hacerlo?;was_available_to_work_more_last_week;;category
+;;1 Sí;;;
+;;2 No;;;
+P7130;¿... Desea cambiar el trabajo que tiene actualmente?;59. ¿......desea cambiar el trabajo que tiene actualmente?;willing_to_change_job;;category
+;;1 Sí;;;
+;;2 No;;;
+P7140;Por cual o cuales de los siguientes motivos ... Desea cambiar de trabajo o empleo:;60. ¿Por que motivos ....... desea cambiar de trabajo o empleo:;willing_to_change_job_reason;1 or nan;float
+P7140s1;Para mejorar la utilización de sus capacidades o formación?;60. ¿Por que motivos ....... desea cambiar de trabajo o empleo:;willing_to_change_jon_reason_better_use_of_capacities;;category
+;;a. Para mejorar la utilización de sus capacidades o formación?;;;
+;;1 Sí;;;
+;;2 No;;;
+P7140s2;Desea mejorar sus ingresos?;60. ¿Por que motivos ....... desea cambiar de trabajo o empleo:;willing_to_change_job_reason_higher_income;;category
+;;b. Desea mejorar sus ingresos?;;;
+;;1 Sí;;;
+;;2 No;;;
+P7140s3;Desea trabajar menos horas?;60. ¿Por que motivos ....... desea cambiar de trabajo o empleo:;willing_to_change_job_reason_work_less;;category
+;;c. Desea trabajar menos horas?;;;
+;;1 Sí;;;
+;;2 No;;;
+P7140s4;Porque el trabajo actual es temporal?;60. ¿Por que motivos ....... desea cambiar de trabajo o empleo:;willing_to_change_job_reason_current_job_is_temporal;;category
+;;d. Porque el trabajo actual es temporal?;;;
+;;1 Sí;;;
+;;2 No;;;
+P7140s5;Problemas en el trabajo?;60. ¿Por que motivos ....... desea cambiar de trabajo o empleo:;willing_to_change_job_reason_problems_at_work;;category
+;;e. Problemas en el trabajo?;;;
+;;1 Sí;;;
+;;2 No;;;
+P7140s6;No le gusta su trabajo actual?;60. ¿Por que motivos ....... desea cambiar de trabajo o empleo:;willing_to_change_job_reason_dislikes_current_job;;category
+;;f. No le gusta su trabajo actual?;;;
+;;1 Sí;;;
+;;2 No;;;
+P7140s7;Su trabajo actual exige mucho esfuerzo físico o mental?;60. ¿Por que motivos ....... desea cambiar de trabajo o empleo:;willing_to_change_job_reason_mental_phisical_effort_demanded;;category
+;;g. Su trabajo actual exige mucho esfuerzo físico o mental?;;;
+;;1 Sí;;;
+;;2 No;;;
+P7140s8;Problemas ambientales (aire, olores, frío, ruidos, temperatura, etc.);60. ¿Por que motivos ....... desea cambiar de trabajo o empleo:;willing_to_change_job_reason_environmental_problems;;category
+;;h. Problemas ambientales (aire, olores, ruidos, temperatura, etc)?;;;
+;;1 Sí;;;
+;;2 No;;;
+P7140s9;Otro?;60. ¿Por que motivos ....... desea cambiar de trabajo o empleo:;willing_to_change_job_reason_other;;category
+;;i. Otro?;;;
+;;1 Sí;;;
+;;2 No;;;
+P7140s9a1;¿cuál?;60. ¿Por que motivos ....... desea cambiar de trabajo o empleo:;willing_to_change_job_reason_other_what;;str
+;;¿cuál?_____________;;;
+P7150;Durante las ultimas 4 semanas, ¿... Hizo diligencias para cambiar de trabajo?;61. Durante las ÚLTIMAS 4 SEMANAS, ¿...... hizo diligencias para cambiar de trabajo?;handled_petition_to_change_job_last_4_weeks;;category
+;;1 Sí;;;
+;;2 No;;;
+P7160;Si le resultara un nuevo trabajo o empleo a ... ¿podría empezar a desempeñarlo antes de un mes?;62. Si le resultara un nuevo trabajo o empleo a...¿podría empezar a desempeñarlo antes de un mes?;can_start_working_in_less_than_1_month;;category
+;;1 Sí;;;
+;;2 No;;;
+;;9 No sabe, no informa;;;
+P7170s1;Con su trabajo actual?;63A. ¿Está .....satisfecho con su trabajo actual?;satisfied_w_current_job;;category
+;;1.Si;;;
+;;2.No;;;
+P7170s5;Con los beneficios y prestaciones que recibe?;63B. ¿Está ..... satisfecho con los beneficios y prestaciones que recibe?;satisfied_w_social_security_benefits;;category
+;;1.Si;;;
+;;2.No;;;
+P7170s6;Con su jornada laboral actual?;63C. ¿Está ..... satisfecho con su jornada laboral actual?;satisfied_w_current_working_hours;;category
+;;1 Si;;;
+;;2 No;;;
+P7180;¿está afiliado o hace parte de una asociación gremial o sindical?;64. ¿Está afiliado o hace parte de una asociación gremial o sindical?;joined_any_trade_union;;category
+;;1 Sí;;;
+;;2 No;;;
+P7240;En caso de no tener trabajo, de donde obtendría principalmente los recursos para sus gastos y/o los de su hogar:;67. ¿En caso de no tener trabajo, de donde obtendría principalmente los recursos para sus gastos y/o los de su hogar:;maintenance_costs_financing_without_job;;category
+;;a. Cesantías?;;;
+;;b. Ahorros personales?;;;
+;;c. Ayudas de hijos o familiares?;;;
+;;d. Indemnización o similar?;;;
+;;e. No lo ha considerado?;;;
+;;f. Vendería su vivienda o bienes del hogar?;;;
+;;g. Empeñaría bienes del hogar?;;;
+;;h. No tendría recursos?;;;
+;;i. Solicitaría dinero prestado?;;;
+;;j. Otros,;;;
+P7240s1;Otros, ¿cuales?;67. ¿En caso de no tener trabajo, de donde obtendría principalmente los recursos para sus gastos y/o los de su hogar:;maintenance_costs_financing_without_job_other;;str
+;;¿cuales? ____________;;;
+P514;¿considera que es su empleo o trabajo actual es estable?;P65.¿Considera que es su empleo o trabajo actual es estable?;stable_job;;category
+;;1 Si;;;
+;;2 No;;;
+P515;¿su horario de trabajo y sus responsabilidades familiares son compatibles?;P66.¿Su horario de trabajo y sus responsabilidades familiares son compatibles?;compatible_working_schedule_and_family_responsibilities;;category
+;;1. Si;;;
+;;2. No;;;
+Oficio;¿qué hace ... En este trabajo?;1. ¿Qué hace……en este trabajo?;role_at_work;cno;str
+;;Código ________;;;
+Rama2d;¿a qué actividad se dedica principalmente la empresa o negocio en la que ... Realiza su trabajo?;3. ¿A qué actividad se dedica principalmente la empresa o negocio en la que…… realiza su trabajo?;economic_sector_1;;str
+Oci;Población ocupada;Población Ocupada;ocupados;all 1;float
+P6430;En este trabajo ... Es:;12. En este trabajo…..es:;work_position;;category
+;;a. Obrero o empleado de empresa particular;;;
+;;b. Obrero o empleado del gobierno;;;
+;;c. Empleado doméstico;;;
+;;d. Trabajador por cuenta propia;;;
+;;e. Patrón o empleador;;;
+;;f. Trabajador familiar sin remuneración;;;
+;;g. Trabajador sin remuneración en empresas o negocios de otros hogares;;;
+;;h. Jornalero o peón;;;
+;;i. Otro,;;;
+Rama4d;Rama de actividad;Rama de la actividad según la CIIU revisión 3 adaptada para Colombia;economic_sector_2;;str
+Rama4dp8;Rama de actividad;Rama de la actividad según la CIIU revisión 3 adaptada para Colombia;economic_sector_3;;str
+Rama2dp8;Rama de actividad;Rama de la actividad según la CIIU revisión 3 adaptada para Colombia;economic_sector_4;;str
+Inglabo;Ingresos laborales;Ingresos Laborales;monthly_work_income;;float
+Mes;Mes;Mes;month;;float
+Dpto;Departamento;Departamento;department;;category
+Fex_c_2011;Factor de expansión;;factor_de_espansion;;float

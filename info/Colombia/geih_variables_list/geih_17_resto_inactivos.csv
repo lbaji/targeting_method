@@ -1,0 +1,102 @@
+Name;Label;Question
+DIRECTORIO;Directorio;Directorio
+SECUENCIA_P;Secuencia_p;SECUENCIA_P
+ORDEN;Orden;Orden
+HOGAR;Hogar;Hogar
+REGIS;Registro de la encuesta;Registro de la encuesta
+CLASE;Clase;Clase
+;;1 Urbano
+;;2 Rural
+P7430;¿... Ha trabajado alguna vez por lo menos durante dos semanas consecutivas?;1. ¿...... ha trabajado alguna vez por lo menos durante dos semanas consecutivas?
+;;1 Sí
+;;2 No
+P7440;¿cuánto hace que ... Trabajó por última vez?;2. ¿Cuánto hace que.......trabajó por última vez?
+;;a. Menos de un año
+;;b. Entre 1 y menos de 2 años
+;;c. Entre 2 y menos de 5 años
+;;d. 5 años y más
+;;e. No sabe, no informa
+P7450;¿por qué motivo o razón principal ... Dejó ese trabajo?;3. ¿Por qué motivo o razón principal ... dejó ese trabajo?
+;;a. Por despido
+;;b. Para dedicarse a estudiar
+;;c. Responsabilidades familiares
+;;d. Enfermedad o accidente
+;;e. Jubilación o retiro
+;;f. Condiciones de trabajo insatisfactorias
+;;g. Cierre o dificultades de la empresa
+;;h. Trabajo temporal terminado
+;;i. Otra
+P7450S1;Otra, ¿cuál?;3. ¿Por qué motivo o razón principal ... dejó ese trabajo?
+;;¿cuál?______________
+P7452;Después de su ultimo trabajo, ¿...Ha hecho alguna diligencia para conseguir otro trabajo o instalar un negocio?;4. Después de su último trabajo, ¿...... Ha hecho alguna diligencia para conseguir otro trabajo o instalar un negocio?
+;;1 Sí
+;;2 No
+P7454;¿ha buscado trabajo alguna vez?;5.¿....... Ha buscado trabajo alguna vez?
+;;1 Sí
+;;2 No
+P7456;¿cuánto hace que buscó trabajo por última vez?;6. ¿Cuanto hace que....... buscó trabajo por última vez?
+;;1 Menos de un año
+;;2 Entre 1 y menos de 2 años
+;;3 Entre 2 y menos de 5 años
+;;4 5 años y más
+;;9 No sabe
+P7458;¿por qué razón principal <..> dejó de buscar trabajo?;7. ¿Por qué razón principal ... dejó de buscar trabajo?
+;;a. No hay trabajo disponible en la ciudad o región
+;;b. Para dedicarse a estudiar
+;;c. No sabe como buscarlo
+;;d. Por enfermedad
+;;e. Está cansado de buscar
+;;f. No encuentra el trabajo apropiado
+;;g. Considera que no está calificado
+;;h. Por la edad
+;;i. Responsabilidades familiares
+;;j. Jubilación o retiro
+;;k. No desea trabajar
+;;l. Otra
+P7458S1;Otro ¿cuál?;7. ¿Por qué razón principal ... dejó de buscar trabajo?
+;;¿cuál? ____________
+P7460;¿está ... Afiliado actualmente a un fondo de pensiones?;8. ¿Está... afiliado actualmente a un fondo de pensiones?
+;;1 Sí
+;;2 No
+;;3 Ya es pensionado
+;;9 No sabe no informa
+P7470;A cual de los siguientes fondos esta afiliado actualmente:;9. ¿A cuál de los siguientes fondos esta afiliado actualmente:
+;;a. Fondo privado?
+;;b. ISS, Cajanal?
+;;c. Regímenes especiales (FFMM, Ecopetrol etc)?
+;;d. Fondo Subsidiado (Prosperar,etc.)?
+P7472;¿recibió o ganó el mes pasado ingresos por concepto de trabajo?;10. ¿Recibió o ganó el mes pasado ingresos por concepto de trabajo?
+;;1 Sí
+;;2 No
+P7472S1;¿cuánto?;10. ¿Recibió o ganó el mes pasado ingresos por concepto de trabajo?
+;;a. ¿cuánto? $___________
+P744;P744;
+P1884;P1884;
+P1807;P1807;
+P6921;P6921;
+INI;Inactivos;Inactivos
+DPTO;Departamento;Departamento
+;;05 Antioquia
+;;08 Atlántico
+;;13 Bolívar
+;;15 Boyacá
+;;17 Caldas
+;;18 Caquetá
+;;19 Cauca
+;;20 Cesar
+;;23 Córdoba
+;;25 Cundinamarca
+;;27 Chocó
+;;41 Huila
+;;44 La guajira
+;;47 Magdalena
+;;50 Meta
+;;52 Nariño
+;;54 Norte de santander
+;;63 Quindio
+;;66 Risaralda
+;;68 Santander
+;;70 Sucre
+;;73 Tolima
+;;76 Valle del cauca
+fex_c_2011;Factor de expansión;Factor de expansión

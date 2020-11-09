@@ -1,0 +1,619 @@
+area_city:
+  5: "Medellín"
+  8: "Barranquilla"
+  11: "Bogotá, d.C."
+  13: "Cartagena"
+  17: "Manizales"
+  23: "Montería"
+  50: "Villavicencio"
+  52: "Pasto"
+  54: "Cúcuta"
+  66: "Pereira"
+  68: "Bucaramanga"
+  73: "Ibagué"
+  76: "Cali"
+area_department:
+  5: "Antioquia"
+  8: "Atlántico"
+  11: "Bogotá, d.C."
+  13: "Bolívar"
+  15: "Boyacá"
+  17: "Caldas"
+  18: "Caquetá"
+  19: "Cauca"
+  20: "Cesar"
+  23: "Córdoba"
+  25: "Cundinamarca"
+  27: "Chocó"
+  41: "Huila"
+  44: "La guajira"
+  47: "Magdalena"
+  50: "Meta"
+  52: "Nariño"
+  54: "Norte de santander"
+  63: "Quindio"
+  66: "Risaralda"
+  68: "Santander"
+  70: "Sucre"
+  73: "Tolima"
+  76: "Valle del cauca"
+clase:
+  1: "urban"
+  2: "rural"
+dpto:
+  5: "Antioquia"
+  8: "Atlántico"
+  11: "Bogotá, d.C."
+  13: "Bolívar"
+  15: "Boyacá"
+  17: "Caldas"
+  18: "Caquetá"
+  19: "Cauca"
+  20: "Cesar"
+  23: "Córdoba"
+  25: "Cundinamarca"
+  27: "Chocó"
+  41: "Huila"
+  44: "La guajira"
+  47: "Magdalena"
+  50: "Meta"
+  52: "Nariño"
+  54: "Norte de santander"
+  63: "Quindio"
+  66: "Risaralda"
+  68: "Santander"
+  70: "Sucre"
+  73: "Tolima"
+  76: "Valle del cauca"
+p6440:
+  1: "yes"
+  2: "no"
+p6450:
+  1: "verbal"
+  2: "written"
+  9: "np.nan"
+p6460:
+  1: "indefinite term"
+  2: "fixed term"
+  9: "np.nan"
+p6400:
+  1: "yes"
+  2: "no"
+  9: "np.nan"
+p6422:
+  1: "yes"
+  2: "no"
+p6424s1:
+  1: "yes"
+  2: "no"
+p6424s2:
+  1: "yes"
+  2: "no"
+p6424s3:
+  1: "yes"
+  2: "no"
+p6430s1:
+  " ": "np.nan"
+p6480:
+  1: "help from family, friends or colleagues"
+  2: "visited or sent curricula to companies"
+  3: "visited or sent curricula to intermediaries"
+  4: "paid for or read classified ads"
+  5: "job vacancy"
+  6: "SENAs info system"
+  7: "other"
+p6480s1:
+  " ": "np.nan"
+p6510:
+  1: "yes"
+  2: "no"
+  9: "np.nan"
+p6510s1:
+  98: "np.nan"
+p6510s2:
+  1: "yes"
+  2: "no"
+p6590:
+  1: "yes"
+  2: "no"
+  9: "np.nan"
+p6590s1:
+  98: "np.nan"
+p6600:
+  1: "yes"
+  2: "no"
+  9: "np.nan"
+p6600s1: 
+  98: "np.nan"
+p6610:
+  1: "yes"
+  2: "no"
+  9: "np.nan"
+p6610s1:
+  98: "np.nan"
+p6620:
+  1: "yes"
+  2: "no"
+  9: "np.nan"
+p6620s1:
+  98: "np.nan"
+p6585s2a1:
+  98: "np.nan"
+p6585s3a1:
+  98: "np.nan"
+p6585s4a1:
+  98: "np.nan"
+p6585s3a2:
+  1: "yes"
+  2: "no"
+p6585s2a2:
+  1: "yes"
+  2: "no"
+p6585s1a2:
+  1: "yes"
+  2: "no"
+p6585s2:
+  1: "yes"
+  2: "no"
+  9: "np.nan"
+p6585s3:
+  1: "yes"
+  2: "no"
+  9: "np.nan"
+p6585s1a1:
+  98: "np.nan"
+p6585s4:
+  1: "yes"
+  2: "no"
+  9: "np.nan"
+p6585s1:
+  1: "yes"
+  2: "no"
+  9: "np.nan"
+p6580:
+  1: "yes"
+  2: "no"
+  9: "np.nan"
+p6580s1:
+  98: "np.nan"
+p6580s2:
+  1: "yes"
+  2: "no"
+p6630s3:
+  1: "yes"
+  2: "no"
+p6630s4a1:
+  98: "np.nan"
+p6630s3a1:
+  98: "np.nan"
+p6630s2a1:
+  98: "np.nan"
+p6630s1a1:
+  98: "np.nan"
+p6630s4:
+  1: "yes"
+  2: "no"
+p6630s2:
+  1: "yes"
+  2: "no"
+p6630s1:
+  1: "yes"
+  2: "no"
+p6640:
+  1: "yes"
+  2: "no"
+p6765:
+  1: "trabajó por honorarios o prestación de servicios"
+  2: "trabajó por obra"
+  3: "trabajó por piezas o a destajo (satélite, maquila, etc)"
+  4: "trabajó por comisión únicamente"
+  5: "trabajó vendiendo por catálogo"
+  6: "trabajó en su oficio (plomero, taxista, doméstica por días etc"
+  7: "tiene un negocio de industria, comercio, servicios o una finca"
+  8: "otro"
+p6765s1:
+  " ": "np.nan"
+  ".": "np.nan"
+p6772:
+  1: "yes"
+  2: "no"
+p6760:
+  98: "np.nan"
+  99: "np.nan"
+p550:
+  98: "np.nan"
+  99: "np.nan"
+p6780:
+  1: "occasional"
+  2: "seasonal"
+  3: "permanent"
+  4: "other"
+p6780s1:
+  " ": "np.nan"
+  ".": "np.nan"
+p6410:
+  1: "una empresa de servicios temporales"
+  2: "una cooperativa de trabajo asociado"
+  3: "una empresa asociativa de trabajo"
+  4: "other"
+p9440:
+  1: "yes"
+  2: "no"
+p6630s6:
+  1: "yes"
+  2: "no"
+p6630s6a1:
+  98: "np.nan"
+p6545s1:
+  98: "np.nan"
+p6545s2:
+  1: "yes"
+  2: "no"
+p6545:
+  1: "yes"
+  2: "no"
+  9: "np.nan"
+p6585s4a2:
+  1: "yes"
+  2: "no"
+p6775:
+  1: "yes"
+  2: "no"
+  3: "does not apply"
+  9: "np.nan"
+p6772s1:
+  1: "yes"
+  2: "no"
+p6810:
+  1: "only job found but wants to work more"
+  2: "working hours that meet needs"
+  3: "other"
+p6810s1:
+  " ": "np.nan"
+  ".": "np.nan"
+p6830:
+  1: "sickness, permission"
+  2: "holidays"
+  3: "vacation"
+  4: "workshop"
+  5: "suspension or end of work"
+  6: "reduction of business' economic activity"
+  7: "other"
+p6830s1:
+  " ": "np.nan"
+p6870:
+  1: "works alone"
+  2: "2 to 3 persons"
+  3: "4 to 5 persons"
+  4: "6 to 10 persons"
+  5: "11 to 19 persons"
+  6: "20 to 30 persons"
+  7: "31 to 50 persons"
+  8: "51 to 100 persons"
+  9: "101 or more persons"
+p6880:
+  1: "in this dwelling"
+  2: "in other dwellings"
+  3: "kiosk"
+  4: "in a vehicle"
+  5: "door-to-door" 
+  6: "on the street, peddler or stationary"
+  7: "office, factory, etc"
+  8: "countryside, sea, river"
+  9: "construction site"
+  10: "mine"
+  11: "other"
+p6880s1:
+  " ": "np.nan"
+p6920:
+  1: "yes"
+  2: "no"
+  3: "already pensioner"
+  9: np.nan
+p6930:
+  1: "private fund"
+  2: "ISS, Cajanal" 
+  3: "Regímenes especiales  (FFMM, Ecopetrol, etc.)" 
+  4: "subsidized fund  (Prosperar, etc.)"
+p6940:
+  1: "split_with_employer"
+  2: "just_pays"
+  3: "employer_pays"
+  4: "does_not_have_to_pay"
+p6980s7a1:
+  " ": "np.nan"
+p6990:
+  1: "yes"
+  2: "no"
+  9: "np.nan"
+p7020:
+  1: "yes"
+  2: "no"
+p7028:
+  1: "obrero o empleado de empresa particular"
+  2: "obrero o empleado del gobierno"
+  3: "empleado doméstico"
+  4: "trabajador por cuenta propia"
+  5: "patrón o empleador"
+  6: "trabajador familiar sin remuneración"
+  7: "trabajador sin remuneración en empresas o negocios de otros hogares"
+  8: "jornalero o peón"
+  9: "otro"
+p7028s1:
+  " ": "np.nan"
+p7040:
+  1: "yes"
+  2: "no"
+p7050:
+  1: "obrero o empleado de empresa particular"
+  2: "obrero o empleado del gobierno"
+  3: "empleado doméstico"
+  4: "trabajador por cuenta propia"
+  5: "patrón o empleador"
+  6: "trabajador familiar sin remuneración"
+  7: "trabajador sin remuneración en empresas o negocios de otros hogares"
+  8: "jornalero o peón"
+  9: "otro"
+p7050s1:
+  " ": "np.nan"
+p9450:
+  1: "yes"
+  2: "no"
+  9: "np.nan"
+p6915:
+  1: "es afiliado como cotizante a un régimen contributivo de salud (EPS)"
+  2: "es afiliado a un régimen subsidiado de salud" 
+  3: "es beneficiario de un afiliado"
+  4: "con ahorros personales"
+  5: "con ayudas de los hijos o familiares"
+  6: "con otro tipo de seguro o cubrimiento"
+  7: "pidiendo dinero prestado"
+  8: "vendería su vivienda o bienes del hogar"
+  9: "empeñaría bienes del hogar"
+  10: "no lo ha considerado"
+  11: "no tiene recursos"
+  12: "otro"
+p6915s1:
+  " ": "np.nan"
+p7075:
+  1: "works alone"
+  2: "2 to 5 persons"
+  3: "6 to 10 persons"
+  4: "11 and more persons"
+p7077:
+  1: "in their dwelling"
+  2: "in other dwellings"
+  3: "kiosk"
+  4: "in a vehicle"
+  5: "door-to-door" 
+  6: "on the street"
+  7: "office, factory, etc"
+  8: "countryside"
+p388:
+  5: "Antioquia"
+  8: "Atlántico"
+  11: "Bogotá"
+  13: "Bolívar"
+  15: "Boyacá"
+  17: "Caldas"
+  18: "Caquetá"  
+  19: "Cauca"
+  20: "Cesar"
+  23: "Córdoba"
+  25: "Cundinamarca"
+  27: "Chocó"
+  41: "Huila"
+  44: "Guajira"
+  47: "Magdalena"
+  50: "Meta"
+  52: "Nariño"
+  54: "Norte de Santander"
+  63: "Quindío"
+  66: "Risaralda"
+  68: "Santander"
+  70: "Sucre"
+  73: "Tolima"
+  76: "Valle del Cauca"
+  81: "Arauca" 
+  85: "Casanare"
+  86: "Putumayo"
+  88: "San Andrés"
+  99: "Vichada"
+p390:
+  5: "Antioquia"
+  8: "Atlántico"
+  11: "Bogotá"
+  13: "Bolívar"
+  15: "Boyacá"
+  17: "Caldas"
+  18: "Caquetá"
+  19: "Cauca"
+  20: "Cesar"
+  23: "Córdoba"
+  25: "Cundinamarca"
+  27: "Chocó"
+  41: "Huila"
+  44: "Guajira"
+  47: "Magdalena"
+  50: "Meta"
+  52: "Nariño"
+  54: "Norte de Santander"
+  63: "Quindío"
+  66: "Risaralda"
+  68: "Santander"
+  70: "Sucre"
+  73: "Tolima"
+  76: "Valle del Cauca"
+  81: "Arauca"
+  85: "Casanare"
+  86: "Putumayo"
+  88: "San Andrés"
+  99: "Vichada"
+p7090:
+  1: "yes"
+  2: "no"
+p7110:
+  1: "yes"
+  2: "no"
+p7120:
+  1: "yes"
+  2: "no"
+p7130:
+  1: "yes"
+  2: "no"
+p7140s1:
+  1: "yes"
+  2: "no"
+p7140s2:
+  1: "yes"
+  2: "no"
+p7140s3:
+  1: "yes"
+  2: "no"
+p7140s4:
+  1: "yes"
+  2: "no"
+p7140s5:
+  1: "yes"
+  2: "no"
+p7140s6:
+  1: "yes"
+  2: "no"
+p7140s7:
+  1: "yes"
+  2: "no"
+p7140s8:
+  1: "yes"
+  2: "no"
+p7140s9:
+  1: "yes"
+  2: "no"
+p7140s9a1:
+  " ": "np.nan"
+p7150:
+  1: "yes"
+  2: "no"
+p7160:
+  1: "yes"
+  2: "no"
+  9: "np.nan"
+p7170s1:
+  1: "yes"
+  2: "no"
+p7170s5:
+  1: "yes"
+  2: "no"
+p7170s6:
+  1: "yes"
+  2: "no"
+p7180:
+  1: "yes"
+  2: "no"
+p7240:
+  1: "cesantías"
+  2: "ahorros personales"
+  3: "ayudas de hijos o familiares"
+  4: "indemnización o similar"
+  5: "no lo ha considerado"
+  6: "vendería su vivienda o bienes del hogar"
+  7: "empeñaría bienes del hogar"
+  8: "no tendría recursos"
+  9: "solicitaría dinero prestado"
+  10: "otros"
+p7240s1:
+  " ": "np.nan"
+p514:
+  1: "yes"
+  2: "no"
+p515:
+  1: "yes"
+  2: "no"
+p6430:
+  1: "obrero o empleado de empresa particular"
+  2: "obrero o empleado del gobierno"
+  3: "empleado doméstico"
+  4: "trabajador por cuenta propia"
+  5: "patrón o empleador"
+  6: "trabajador familiar sin remuneración"
+  7: "trabajador sin remuneración en empresas o negocios de otros hogares"
+  8: "jornalero o peón"
+  9: "otro"
+p1800:
+  1: "yes"
+  2: "no"
+p1802:
+  1: "a una sola empresa, negocio, hogar o intermediario"
+  2: "a varias empresas, negocios, hogares o intermediarios"
+  3: "directamente al público"
+  4: "np.nan"
+p1879:
+  1: "no encontró trabajo como asalariado"
+  2: "por despido"
+  3: "más independencia"
+  4: "horario de trabajo más flexible"
+  5: "se considera muy joven o muy viejo"
+  6: "empezó su empresa o negocio"
+  7: "trabaja en un negocio familiar"
+  8: "mayor nivel de ingreso"
+  9: "por tradición familiar"
+  10: "considera que no tiene los estudios necesarios"
+  11: "otra"
+p1805:
+  1: "yes"
+  2: "no"
+p1880:
+  1: "terminó su contrato"
+  2: "por quiebra o cierre de la empresa"
+  3: "condiciones laborales insatisfactorias"
+  4: "porque se jubiló"
+  5: "lo despidieron"
+  6: "por su edad"
+  7: "reducción de personal"
+  8: "renunció porque deseaba un empleo con mejores ingresos"
+  9: "renunció por razones personales (matrimonio, embarazo, responsabilidades familiares"
+  10: "renunció para empezar su propio negocio"
+  11: "renunció por motivos de salud"
+  12: "renunció para estudiar"
+  13: "otra"
+p1881:
+  1: "bus intermunicipal"
+  2: "bus urbano"
+  3: "a pie"
+  4: "metro"
+  5: "transporte articulado"
+  6: "taxi"
+  7: "transporte de la empresa"
+  8: "automóvil de uso particular"
+  9: "lancha, planchón, canoa"
+  10: "caballo"
+  11: "moto"
+  12: "mototaxi"
+  13: "bicicleta"
+  14: "no se desplaza"
+  15: "otro"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

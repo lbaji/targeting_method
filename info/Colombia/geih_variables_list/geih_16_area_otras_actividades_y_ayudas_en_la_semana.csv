@@ -1,0 +1,106 @@
+Name;Label;Question
+Directorio;Directorio;Directorio
+Secuencia_p;Secuencia_p;SECUENCIA_P
+Orden;Orden;Orden
+Hogar;Hogar;Hogar
+Regis;Registro de la encuesta;Registro de la encuesta
+P7480s1;Ayudar a criar animales;1. Adicional a las actividades que me informó haber realizado la semana pasada, cuales de las siguientes labores no remuneradas hizo:
+;;a. Ayudar en labores del campo o en la cría de animales?
+;;1 Sí
+;;2 No
+P7480s1a1;¿cuántas horas a la semana?;1. Adicional a las actividades que me informó haber realizado la semana pasada, cuales de las siguientes labores no remuneradas hizo:
+;;a. Ayudar en labores del campo o en la cría de animales?
+;;¿cuántas horas a la semana? ___________
+P7480s3;Realizar oficios en su hogar;1. Adicional a las actividades que me informó haber realizado la semana pasada, cuales de las siguientes labores no remuneradas hizo:
+;;b. Realizar oficios en su hogar
+;;1 Sí
+;;2 No
+P7480s3a1;¿cuántas horas a la semana?;1. Adicional a las actividades que me informó haber realizado la semana pasada, cuales de las siguientes labores no remuneradas hizo:
+;;b. Realizar oficios en su hogar
+;;¿cuántas horas a la semana? ___________
+P7480s4;Realizar oficios del hogar en otros hogares o instituciones;1. Adicional a las actividades que me informó haber realizado la semana pasada, cuales de las siguientes labores no remuneradas hizo:
+;;c. Realizar oficios en otros hogares o instituciones?
+;;1 Sí
+;;2 No
+P7480s4a1;¿cuántas horas a la semana?;1. Adicional a las actividades que me informó haber realizado la semana pasada, cuales de las siguientes labores no remuneradas hizo:
+;;c. Realizar oficios en otros hogares o instituciones?
+;;¿cuántas horas a la semana? ___________
+P7480s5;Cuidar o atender niños;1. Adicional a las actividades que me informó haber realizado la semana pasada, cuales de las siguientes labores no remuneradas hizo:
+;;d. Cuidar o atender niños
+;;1 Sí
+;;2 No
+P7480s5a1;¿cuántas horas a la semana?;1. Adicional a las actividades que me informó haber realizado la semana pasada, cuales de las siguientes labores no remuneradas hizo:
+;;d. Cuidar o atender niños
+;;¿cuántas horas a la semana? ___________
+P7480s6;Cuidar a personas ancianas y/o discapacitadas;1. Adicional a las actividades que me informó haber realizado la semana pasada, cuales de las siguientes labores no remuneradas hizo:
+;;e. Cuidar personas enfermas, ancianas y/o discapacitadas?
+;;1 Sí
+;;2 No
+P7480s6a1;¿cuántas horas a la semana?;1. Adicional a las actividades que me informó haber realizado la semana pasada, cuales de las siguientes labores no remuneradas hizo:
+;;e. Cuidar personas enfermas, ancianas y/o discapacitadas?
+;;¿cuántas horas a la semana? ___________
+P7480s7;Elaborar prendas de vestir o tejidos para miembros del hogar;1. Adicional a las actividades que me informó haber realizado la semana pasada, cuales de las siguientes labores no remuneradas hizo:
+;;f. Elaborar prendas de vestir o tejidos para miembros del hogar?
+;;1 Sí
+;;2 No
+P7480s7a1;¿cuántas horas a la semana?;1. Adicional a las actividades que me informó haber realizado la semana pasada, cuales de las siguientes labores no remuneradas hizo:
+;;f. Elaborar prendas de vestir o tejidos para miembros del hogar?
+;;¿cuántas horas a la semana? ___________
+P7480s8;Asistir a cursos o eventos de capacitación;1. Adicional a las actividades que me informó haber realizado la semana pasada, cuales de las siguientes labores no remuneradas hizo:
+;;g. Asistir a cursos o eventos de capacitación?
+;;1 Sí
+;;2 No
+P7480s8a1;¿cuántas horas a la semana?;1. Adicional a las actividades que me informó haber realizado la semana pasada, cuales de las siguientes labores no remuneradas hizo:
+;;g. Asistir a cursos o eventos de capacitación?
+;;¿cuántas horas a la semana? ___________
+P7480s9;Trabajar en la autoconstrucción de vivienda;1. Adicional a las actividades que me informó haber realizado la semana pasada, cuales de las siguientes labores no remuneradas hizo:
+;;h. Trabajar en la autoconstrucción de vivienda?
+;;1 Sí
+;;2 No
+P7480s9a1;¿cuántas horas a la semana?;1. Adicional a las actividades que me informó haber realizado la semana pasada, cuales de las siguientes labores no remuneradas hizo:
+;;h. Trabajar en la autoconstrucción de vivienda?
+;;¿cuántas horas a la semana? ___________
+P7480s10;Realizar trabajos comunitarios o voluntarios en edificaciones u obras comunitarias o públicas;1. Adicional a las actividades que me informó haber realizado la semana pasada, cuales de las siguientes labores no remuneradas hizo:
+;;i. Realizar trabajos comunitarios o voluntarios en edificaciones u obras comunitarias o pùblicas?
+;;1 Sí
+;;2 No
+P7480s10a1;¿cuántas horas a la semana?;1. Adicional a las actividades que me informó haber realizado la semana pasada, cuales de las siguientes labores no remuneradas hizo:
+;;i. Realizar trabajos comunitarios o voluntarios en edificaciones u obras comunitarias o pùblicas?
+;;¿cuántas horas a la semana? ___________
+P7480s11;Participar en otras actividades comunales y/o de trabajo voluntario?;1. Adicional a las actividades que me informó haber realizado la semana pasada, cuales de las siguientes labores no remuneradas hizo:
+;;j. Participar en otras actividades civicas, sociales, comunales y/o de trabajo voluntario?
+;;1 Sí
+;;2 No
+P7480s11a1;¿cuántas horas a la semana?;1. Adicional a las actividades que me informó haber realizado la semana pasada, cuales de las siguientes labores no remuneradas hizo:
+;;j. Participar en otras actividades civicas, sociales, comunales y/o de trabajo voluntario?
+;;¿cuántas horas a la semana? ___________
+Area;Área;Área
+;;05 Medellín
+;;08 Barranquilla
+;;11 Bogotá, d.C
+;;13 Cartagena
+;;17 Manizales
+;;23 Montería
+;;50 Villavicencio
+;;52 Pasto
+;;54 Cúcuta
+;;66 Pereira
+;;68 Bucaramanga
+;;73 Ibagué
+;;76 Cali
+Mes;Mes;Mes
+Dpto;Departamento;Departamento
+;;05 Antioquia
+;;08 Atlántico
+;;11 Bogotá, d.C.
+;;13 Bolívar
+;;17 Caldas
+;;23 Córdoba
+;;50 Meta
+;;52 Nariño
+;;54 Norte de santander
+;;66 Risaralda
+;;68 Santander
+;;73 Tolima
+;;76 Valle del cauca
+Fex_c_2011;Factor de expansión;Factor de expansión

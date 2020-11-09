@@ -1,0 +1,125 @@
+name;label;question;new_name;comment;new_dtype
+Directorio;Directorio;Directorio;directorio;What does that mean? Is there a better translation?;int
+Secuencia_p;Secuencia_p;SECUENCIA_P;secuencia_p;;int
+Orden;Orden;Orden;orden;;int
+Hogar;Hogar;Hogar;household;;int
+Regis;Registro de la encuesta;Registro de la encuesta;regis;;int
+Area;Area;Área;area;Needs manual recoding that differs between cabecera and area;category
+;;05 Medellín;;;
+;;08 Barranquilla;;;
+;;11 Bogotá, d.C;;;
+;;13 Cartagena;;;
+;;17 Manizales;;;
+;;23 Montería;;;
+;;50 Villavicencio;;;
+;;52 Pasto;;;
+;;54 Cúcuta;;;
+;;66 Pereira;;;
+;;68 Bucaramanga;;;
+;;73 Ibagué;;;
+;;76 Cali;;;
+P7250;¿durante cuántas semanas ha estado o estuvo ... Buscando trabajo?;1. ¿Durante cuántas semanas ha estado o estuvo...... buscando trabajo?;weeks_looking_for_job;;float
+;;Semanas ______________;;;
+P7260;Si le hubiera resultado un trabajo la semana pasada, ¿cuántas horas a la semana estaba disponible para trabajar?;2. Si le hubiera resultado un trabajo la semana pasada, ¿ cuántas horas a la semana estaba disponible para trabajar?;weekly_hours_available;;float
+;;Horas semanales __________________;;;
+P7280;Ha buscado trabajo como:;4. Ha buscado trabajo como:;type_of_job_searched_for;;category
+;;a. Obrero o empleado de empresa particular;;;
+;;b. Obrero o empleado del gobierno;;;
+;;c. Empleado doméstico;;;
+;;d. Trabajador por cuenta propia;;;
+;;e. Patrón o empleador;;;
+;;f. Trabajador familiar sin remuneración;;;
+;;g. Trabajador sin remuneración en empresas de otros hogares;;;
+;;h. Jornalero o peón;;;
+;;i. Otro;;;
+P7280s1;Otro, ¿cual?;4. Ha buscado trabajo como:;type_of_job_searched_for_other;;str
+;;¿cual? ________________;;;
+P7310;¿... Ha buscado trabajo por primera vez o había trabajado antes por lo menos durante dos semanas consecutivas?;5.¿...... ha buscado trabajo por primera vez o había trabajado antes por lo menos durante dos semanas consecutivas?;first_time_looking_for_job;;category
+;;1 Primera vez;;;
+;;2 Trabajó antes;;;
+P7320;¿cuántas semanas hace que ...Dejó de trabajar por última vez?;6. ¿Cuántas semanas hace que....... dejó de trabajar por última vez?;weeks_since_last_job;;float
+;;Semanas ______________;;;
+P7350;En este último trabajo era:;9. En este último trabajo era:;position_in_last_job;;category
+;;a. Obrero o empleado de empresa particular;;;
+;;b. Obrero o empleado del Gobierno;;;
+;;c. Empleado doméstico;;;
+;;d. Trabajador por cuenta propia;;;
+;;e. Patrón o empleador;;;
+;;f. Trabajador familiar sin remuneración;;;
+;;g. Trabajador sin remuneración en empresas de otros hogares;;;
+;;h. Jornalero o peón;;;
+;;i. Otro;;;
+P7350s1;Otro, ¿cuál?;9. En este último trabajo era:;position_in_last_job_other;;str
+;;¿cual? ________________;;;
+P7360;¿cuántas personas en total tenía la empresa , negocio o finca, donde ... Trabaja?;10. ¿Cuántas personas en total tenía la empresa, negocio o finca, donde .... trabajaba?;number_of_employees;;category
+;;a. Trabajaba solo;;;
+;;b. 2 a 3 personas;;;
+;;c. 4 a 5 personas;;;
+;;d. 6 a 10 personas;;;
+;;e. 11 a 19 personas;;;
+;;f. 20 a 30 personas;;;
+;;g. 31 a 50 personas;;;
+;;h. 51 a 100 personas;;;
+;;i. 101 o más personas;;;
+P7390;En caso de enfermedad, ¿cómo cubriría los costos médicos y de medicamentos?;12. En caso de enfermedad, ¿cómo cubriría los costos médicos y de medicamentos?;disease_expenses_coverage;;category
+;;a. Es afiliado a un regimen subsidiado de salud o EPS;;;
+;;b. Es beneficiario de un afiliado;;;
+;;c. Con ahorros personales;;;
+;;d. Con ayudas de los hijos o familiares;;;
+;;e. Con otro tipo de seguro o cubrimiento;;;
+;;f. Pidiendo dinero prestado;;;
+;;g. No lo ha considerado;;;
+;;h. No tiene recursos;;;
+;;i. Otro;;;
+P7390s1;Otro, ¿cuál?;12. En caso de enfermedad, ¿cómo cubriría los costos médicos y de medicamentos?;disease_expenses_coverage_9;;str
+;;¿cuál? ________________;;;
+P7420;¿qué está haciendo usted para obtener recursos en caso de jubilación o para la vejez?;13. ¿Qué está haciendo Usted actualmente para mantenerse económicamente en su vejez?;old_age_finances;all are missings: ' ', '.', 'nan';float
+P7420s1;Aportar en un fondo de pensiones obligatorias;13. ¿Qué está haciendo Usted actualmente para mantenerse económicamente en su vejez?;old_age_finances_compulsory_pension_payment;;float
+;;a. Aportar en un fondo de pensiones obligatorias;;;
+P7420s2;Aportar en un fondo de pensiones voluntarias;13. ¿Qué está haciendo Usted actualmente para mantenerse económicamente en su vejez?;old_age_finances_voluntary_pension_payment;;float
+;;b. Aportar en un fondo de pensiones voluntarias;;;
+P7420s3;Ahorrando;13. ¿Qué está haciendo Usted actualmente para mantenerse económicamente en su vejez?;old_age_finances_savings;;float
+;;c. Ahorrando;;;
+P7420s4;Haciendo inversiones;13. ¿Qué está haciendo Usted actualmente para mantenerse económicamente en su vejez?;old_age_finances_investments;;float
+;;d. Haciendo inversiones;;;
+P7420s5;Pagando un seguro por su cuenta;13. ¿Qué está haciendo Usted actualmente para mantenerse económicamente en su vejez?;old_age_finances_private_pension_insurance;;float
+;;e. Pagando un seguro por su cuenta;;;
+P7420s6;Preparando a sus hijos para que puedan mantenerlo en su vejez;13. ¿Qué está haciendo Usted actualmente para mantenerse económicamente en su vejez?;old_age_finances_investments_in_children;;float
+;;f. Preparando a sus hijos para que puedan mantenerlo en su vejez;;;
+P7420s7;Otro;13. ¿Qué está haciendo Usted actualmente para mantenerse económicamente en su vejez?;old_age_finances_other;;float
+;;g. Otro;;;
+P7420s8;Nada;13. ¿Qué está haciendo Usted actualmente para mantenerse económicamente en su vejez?;old_age_finances_nothing;;float
+;;h. Nada;;;
+P7420s7a1;¿cual?;13. ¿Qué está haciendo Usted actualmente para mantenerse económicamente en su vejez?;old_age_finances_other_what;;str
+;;¿cuál? ________________;;;
+P7422;¿recibió o ganó el mes pasado ingresos por concepto de trabajo?;14. ¿Recibió o ganó el mes pasado ingresos por concepto de trabajo?;work_earned_income_last_month;;category
+;;1 Sí;;;
+;;2 No;;;
+P7422s1;¿cuánto?;14. ¿Recibió o ganó el mes pasado ingresos por concepto de trabajo?;work_earned_income_last_month_amount;;float
+;;a. ¿cuánto? $ ______________;;;
+P9460;¿actualmente recibe subsidio de desempleo?;11. ¿Actualmente recibe subsidio de desempleo?;unemployment_subsidies;;category
+;;1 Sí;;;
+;;2 No;;;
+;;9 No sabe, no informa;;;
+Oficio1;¿en que ocupación, oficio o labor ha buscado trabajo?;3. ¿En qué ocupación, oficio o labor ha buscado trabajo?;type_of_jobs_searched_for;;float
+Oficio2;¿qué ocupación , oficio o labor realizo ... La última vez que trabajo?;7. ¿Qué ocupación, oficio o labor realizó ....... la última vez que trabajó?;last_job;;float
+Rama2d_d;¿a que actividad se dedicaba principalmente la empresa negocio, industria, oficina, firma o finca en la que realizo su ultimo trabajo?;8. ¿A qué actividad se dedicaba principalmente la empresa negocio, industria, oficina, firma o finca en la que…… realizó su último trabajo?;economic_sector_last_job;;float
+Dsi;Desocupados;Desocupados;desocupados;all 1;int
+Dscy;Desempleo coyuntural;Desempleo Coyuntural;temporary_unemployment;both strings and int;float
+Rama4d_d;Rama de actividad;Rama de la actividad según la CIIU revisión 3 adaptada para Colombia;economic_sector ;;float
+Mes;Mes;Mes;month;;int
+Dpto;Departamento;Departamento;department;;category
+;;05 Antioquia;;;
+;;08 Atlántico;;;
+;;11 Bogotá, d.C.;;;
+;;13 Bolívar;;;
+;;17 Caldas;;;
+;;23 Córdoba;;;
+;;50 Meta;;;
+;;52 Nariño;;;
+;;54 Norte de santander;;;
+;;66 Risaralda;;;
+;;68 Santander;;;
+;;73 Tolima;;;
+;;76 Valle del cauca;;;
+Fex_c_2011;Factor de expansión;Factor de expansión;factor_de_expansion;;float

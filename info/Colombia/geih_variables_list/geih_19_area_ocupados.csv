@@ -1,0 +1,596 @@
+Name;Label;Question
+DIRECTORIO;Directorio;Directorio
+SECUENCIA_P;Secuencia_p;Secuencia_p
+ORDEN;Orden;Orden
+HOGAR;Hogar;Hogar
+REGIS;Registro de la encuesta;Registro de la encuesta
+AREA;Area;Area
+;;05 Medellín
+;;08 Barranquilla
+;;11 Bogotá, d.C
+;;13 Cartagena
+;;17 Manizales
+;;23 Montería
+;;50 Villavicencio
+;;52 Pasto
+;;54 Cúcuta
+;;66 Pereira
+;;68 Bucaramanga
+;;73 Ibagué
+;;76 Cali
+P388;¿en qué departamento realiza … principalmente este trabajo?;2A.¿En qué departamento realiza … principalmente este trabajo?
+;;5 - Antioquia
+;;8 - Atlántico
+;;11 - Bogotá
+;;13 - Bolívar
+;;15 - Boyacá
+;;17 - Caldas
+;;18 - Caquetá
+;;19 - Cauca
+;;20 - Cesar
+;;23 - Córdoba
+;;25 - Cundinamarca
+;;27 - Chocó
+;;41 - Huila
+;;44 - Guajira
+;;47 - Magdalena
+;;50 - Meta
+;;52 - Nariño
+;;54 - Norte de Santander
+;;63 - Quindío
+;;66 - Risaralda
+;;68 - Santander
+;;70 - Sucre
+;;73 - Tolima
+;;76 - Valle del Cauca
+;;81 - Arauca
+;;85 - Casanare
+;;86 - Putumayo
+;;88 - San Andrés
+;;99 - Vichada
+P6440;¿para realizar este trabajo, tiene usted algún tipo de contrato?;4. ¿Para realizar este trabajo tiene ... algún tipo de contrato? (verbal o escrito)
+;;1 Sí
+;;2 No
+P6450;¿el contrato es verbal o escrito?;5. ¿El contrato es verbal o escrito?
+;;a. Verbal
+;;b. Escrito
+;;c. No sabe, no informa
+P6460;¿el contrato de trabajo de ... Es a término indefinido o a término fijo?;6. ¿El contrato de trabajo es a término indefinido o a término fijo?
+;;a. A término Indefinido
+;;b. A término fijo
+;;c. No sabe, no informa
+;;"Si no sabe el número de meses del contrato, escriba 99; si la duración del contrato es inferior a 15 días, escriba 00; de 15 días un mes, escriba 01; si la duración del contrato es de 98 meses o más escriba 98."
+P6460S1;Número de meses;6. ¿El contrato de trabajo es a término indefinido o a término fijo? - b. A término fijo
+;;Nro Meses ______________
+P6400;La empresa o persona que contrato a ..., ¿es la misma empresa donde trabaja o presta sus servicios?;7. La empresa o persona que contrató a ...., ¿es la misma empresa donde trabaja o presta sus servicios?
+;;1 Si
+;;2 No
+;;9 No sabe, no informa
+P6410;La empresa que contrato a..... Es:;7A. La empresa que contrato a … es:
+;;a. Una empresa de servicios temporales
+;;b. Una cooperativa de trabajo asociado
+;;c. Una empresa asociativa de trabajo
+;;d. Otra
+P6410S1;Otra ¿cuál?;7A. La empresa que contrato a … es:
+;;¿Cuál? __________________
+P6422;¿esta ..... Conforme con el tipo de contrato que tiene?;9. ¿Esta ..... Conforme con el tipo de contrato que tiene?
+;;(De planta, por prestación de servicios, por labor terminada, etc)
+;;1 Sí
+;;2 No
+P6424S1;Vacaciones con sueldo?;10. ¿Por su contrato actual, recibe o tiene derecho a:
+;;a. Vacaciones con sueldo?
+;;1 Sí
+;;2 No
+P6424S2;Prima de navidad?;10. ¿Por su contrato actual, recibe o tiene derecho a:
+;;b. Prima de navidad?
+;;1 Sí
+;;2 No
+P6424S3;Derecho de cesantia?;10. ¿Por su contrato actual, recibe o tiene derecho a:
+;;c. Derecho a cesantía?
+;;1 Sí
+;;2 No
+P6426;¿cuanto tiempo lleva ... Trabajando en esta empresa, negocio, industria, oficina, firma o finca de manera continua?;11. ¿Cuanto tiempo lleva ... trabajando en esta empresa, negocio, industria, oficina, firma o finca de manera continua?
+;;si es menos de un mes escriba 000
+;;Meses ________
+P6430S1;Otra cuál???;12. En este trabajo…..es: - i. Otro,
+;;¿cual? ________________
+P6480;¿por qué medio principal, ... Consiguió su empleo actual?;13. ¿Por qué medio principal, .... consiguió su empleo actual?
+;;a. Pidió ayuda a familiares, amigos, colegas
+;;b. Visitó, llevó o envió hojas de vida a empresas o empleadores
+;;c. Visitó, llevó o envió hojas de vida a bolsas de empleo o intermediarios
+;;d. Puso o consultó avisos clasificados
+;;e. Por convocatorias
+;;f. Por el sistema de información SENA
+;;g. Otro medio
+;;h. No sabe, no informa
+P6480S1;¿cuál?;13. ¿Por qué medio principal, .... consiguió su empleo actual? - g. Otro medio
+;;¿cuál? ___________
+P9440;¿su empleo actual lo obtuvo a través de páginas de internet?;13A. ¿Su empleo actual lo obtuvo a través de páginas de internet?
+;;1 Sí
+;;2 No
+P6500;Antes de descuentos ¿cuánto ganó ... El mes pasado en este empleo?;14. Antes de descuentos ¿cuánto ganó .... el mes pasado en este empleo?
+;;Valor mensual $_______________________
+;;(incluya propinas y comisiones y excluya viáticos y pagos en especie)
+P6510;El mes pasado recibió ingresos por concepto de horas extras?;15. El mes pasado recibió ingresos por concepto de horas extras?
+;;1 Sí
+;;2 No
+;;9 No sabe, no informa
+P6510S1;¿cuánto recibió?;15. El mes pasado recibió ingresos por concepto de horas extras? 1. Sí
+;;a. ¿cuánto recibió? $ ___________________
+P6510S2;¿incluyó este valor en los ingresos del mes pasado $__ que me declaró anteriormente?;15. El mes pasado recibió ingresos por concepto de horas extras?
+;;b. ¿Incluyó este valor en los ingresos del mes pasado ($____ ) que me declaró anteriormente?
+;;1 Sí
+;;2 No
+P6590;Además del salario en dinero, ¿el mes pasado recibió alimentos como parte de pago por su trabajo?;16. Además del salario en dinero, ¿el mes pasado recibió alimentos como parte de pago por su trabajo?
+;;1 Sí
+;;2 No
+;;9 No sabe, no informa
+P6590S1;¿en cuánto estima lo que recibió el mes pasado? (si recibió pero no sabe estimar el monto, escriba 98);16. Además del salario en dinero, ¿el mes pasado recibió alimentos como parte de pago por su trabajo? 1. Sí
+;;a. ¿En cuánto estima lo que recibió?
+;;$_______________
+P6600;Además del salario en dinero, ¿el mes pasado recibió vivienda como parte de pago por su trabajo?;17. Además del salario en dinero, ¿el mes pasado recibió vivienda como parte de pago por su trabajo?
+;;1 Sí
+;;2 No
+;;9 No sabe, no informa
+P6600S1;¿en cuánto estima lo que recibió el mes pasado? (si recibió pero no sabe estimar el monto, escriba 98);17. Además del salario en dinero, ¿el mes pasado recibió vivienda como parte de pago por su trabajo? 1. Sí
+;;a. ¿En cuánto estima lo que recibió?
+;;$_______________
+P6610;¿normalmente ... Utiliza transporte de la empresa para desplazarse a su trabajo (bus o automóvil)?;18. ¿Normalmente... utiliza transporte de la empresa para desplazarse a su trabajo (bus o automóvil)?
+;;1 Sí
+;;2 No
+;;9 No sabe, no informa
+P6610S1;¿en cuánto estima lo que recibió el mes pasado? (si recibió pero no sabe estimar el monto, escriba 98);18. ¿Normalmente... utiliza transporte de la empresa para desplazarse a su trabajo (bus o automóvil)? 1. Sí
+;;a. ¿En cuánto estima lo que recibió?
+;;$_______________
+P6620;Además del salario en dinero, ¿el mes pasado... Recibió otros ingresos en especie por su trabajo (electrodomésticos, ropa, productos diferentes a alimentos o bonos tipo sodexho)?;19. Además del salario en dinero, ¿el mes pasado... recibió otros ingresos en especie por su trabajo(electrodomésticos, ropa, productos diferentes a alimentos o bonos tipo Sodexho)?
+;;1 Sí
+;;2 No
+;;9 No sabe, no informa
+P6620S1;¿en cuánto estima lo que recibió el mes pasado? (si recibió pero no sabe estimar el monto, escriba 98);19. Además del salario en dinero, ¿el mes pasado... recibió otros ingresos en especie por su trabajo(electrodomésticos, ropa, productos diferentes a alimentos o bonos tipo Sodexho)? 1. Sí
+;;a. ¿En cuánto estima lo que recibió?
+;;$_______________
+P6585S1;Auxilio o subsidio de alimentación?;20. ¿Cuál o cuáles de los siguientes subsidios recibió ... el mes pasado:
+;;a. Auxilio o subsidio de alimentación?
+;;1 Sí
+;;2 No
+;;9 No sabe, no informa
+P6585S1A1;¿cuánto? (si recibió pero no sabe el monto, escriba 98);20. ¿Cuál o cuáles de los siguientes subsidios recibió ... el mes pasado: a. Auxilio o subsidio de alimentación?
+;;a. ¿cuánto? $____________
+P6585S1A2;¿incluyo este valor en los ingresos del mes pasado que me declaró anteriormente?;20. ¿Cuál o cuáles de los siguientes subsidios recibió ... el mes pasado: a. Auxilio o subsidio de alimentación?
+;;b. ¿Incluyó este valor en los ingresos del mes pasado ($ ____) que me declaró anteriormente?
+;;1 Sí
+;;2 No
+P6585S2;Auxilio o subsidio de transporte?;20. ¿Cuál o cuáles de los siguientes subsidios recibió ... el mes pasado:
+;;b. Auxilio o subsidio de transporte?
+;;1 Sí
+;;2 No
+;;9 No sabe, no informa
+P6585S2A1;¿cuánto? (si recibió pero no sabe el monto, escriba 98)¿cuánto? (si recibió pero no sabe el monto, escriba 98);20. ¿Cuál o cuáles de los siguientes subsidios recibió ... el mes pasado: b. Auxilio o subsidio de transporte?
+;;a. ¿cuánto? $____________
+P6585S2A2;¿incluyo este valor en los ingresos del mes pasado que me declaró anteriormente?;20. ¿Cuál o cuáles de los siguientes subsidios recibió ... el mes pasado: b. Auxilio o subsidio de transporte?
+;;b. ¿Incluyó este valor en los ingresos del mes pasado ($ ____) que me declaró anteriormente?
+;;1 Sí
+;;2 No
+P6585S3;Subsidio familiar?;20. ¿Cuál o cuáles de los siguientes subsidios recibió ... el mes pasado:
+;;c. Subsidio Familiar?
+;;1 Sí
+;;2 No
+;;9 No sabe, no informa
+P6585S3A1;¿cuánto? (si recibió pero no sabe el monto, escriba 98);20. ¿Cuál o cuáles de los siguientes subsidios recibió ... el mes pasado: c. Subsidio Familiar?
+;;a. ¿cuánto? $____________
+P6585S3A2;¿incluyo este valor en los ingresos del mes pasado que me declaró anteriormente?;20. ¿Cuál o cuáles de los siguientes subsidios recibió ... el mes pasado: c. Subsidio Familiar?
+;;b. ¿Incluyó este valor en los ingresos del mes pasado ($ ____) que me declaró anteriormente?
+;;1 Sí
+;;2 No
+P6585S4;Subsidio educativo?;20. ¿Cuál o cuáles de los siguientes subsidios recibió ... el mes pasado:
+;;d. Subsidio Educativo?
+;;1 Sí
+;;2 No
+;;9 No sabe, no informa
+P6585S4A1;¿cuánto recibió? (si recibió pero no sabe el monto, escriba 98);20. ¿Cuál o cuáles de los siguientes subsidios recibió ... el mes pasado: d. Subsidio Educativo?
+;;a. ¿cuánto? $____________
+P6585S4A2;¿incluyo este valor en los ingresos del mes pasado que me declaró anteriormente?;20. ¿Cuál o cuáles de los siguientes subsidios recibió ... el mes pasado: d. Subsidio Educativo?
+;;b. ¿Incluyó este valor en los ingresos del mes pasado ($ ____) que me declaró anteriormente?
+;;1 Sí
+;;2 No
+P6545;Primas(técnica, de antigüedad, clima, orden público, otras , etc);21. El mes pasado recibió ...:
+;;a. Primas? (técnica, de antigüedad, clima, orden público, otras, etc.)
+;;1 Sí
+;;2 No
+;;9 No sabe, no informa
+P6545S1;¿cuánto?;21. El mes pasado recibió ...: a. Primas? (técnica, de antigüedad, clima, orden público, otras, etc.)
+;;a. ¿cuánto? $____________
+P6545S2;¿incluyo esta valor en los ingresos del mes pasado que me declaro anteriormente?;21. El mes pasado recibió ...: a. Primas? (técnica, de antigüedad, clima, orden público, otras, etc.)
+;;b. ¿Incluyó este valor en los ingresos del mes pasado ($ ____) que me declaró anteriormente?
+;;1 Sí
+;;2 No
+P6580;El mes pasado recibió ... Bonificaciones mensuales?;21. El mes pasado recibió ...:
+;;b. Algún tipo de bonificación de carácter mensual?
+;;1 Sí
+;;2 No
+;;9 No sabe, no informa
+P6580S1;¿cuánto recibió el mes pasado?;21. El mes pasado recibió ...: b. Algún tipo de bonificación de carácter mensual?
+;;a. ¿cuánto? $____________
+P6580S2;¿incluyó este valor en los ingresos del mes pasado que me declaró anteriormente ?;21. El mes pasado recibió ...: b. Algún tipo de bonificación de carácter mensual?
+;;b. ¿Incluyó este valor en los ingresos del mes pasado ($ ____) que me declaró anteriormente?
+;;1 Sí
+;;2 No
+P6630S1;Prima de servicios?;22. En los últimos 12 meses recibió:
+;;a. Prima de servicios?
+;;1 Sí
+;;2 No
+P6630S1A1;¿cuánto recibió? (si recibió pero no sabe el monto, escriba 98);22. En los últimos 12 meses recibió: a. Prima de servicios?
+;;a. ¿cuánto recibió? $___________
+P6630S2;Prima de navidad?;22. En los últimos 12 meses recibió:
+;;b. Prima de navidad?
+;;1 Sí
+;;2 No
+P6630S2A1;¿cuánto recibió? (si recibió pero no sabe el monto, escriba 98);22. En los últimos 12 meses recibió: b. Prima de navidad?
+;;a. ¿cuánto recibió? $___________
+P6630S3;Prima de vacaciones?;22. En los últimos 12 meses recibió:
+;;c. Prima de vacaciones?
+;;1 Sí
+;;2 No
+P6630S3A1;¿cuánto recibió? (si recibió pero no sabe el monto, escriba 98);22. En los últimos 12 meses recibió: c. Prima de vacaciones?
+;;a. ¿cuánto recibió? $___________
+P6630S4;Viáticos permanentes y/o bonificaciones anuales?;22. En los últimos 12 meses recibió:
+;;d. Viáticos permanentes y/o bonificaciones anuales?
+;;1 Sí
+;;2 No
+P6630S4A1;¿cuánto recibió? (si recibió pero no sabe el monto, escriba 98);22. En los últimos 12 meses recibió: d. Viáticos permanentes y/o bonificaciones anuales?
+;;a. ¿cuánto recibió? $___________
+P6630S6;Pagos por accidentes de trabajo;22. En los últimos 12 meses recibió:
+;;e. Pagos por accidentes de trabajo
+;;1 Sí
+;;2 No
+P6630S6A1;Cuánto recibió;22. En los últimos 12 meses recibió: e. Pagos por accidentes de trabajo
+;;a. ¿cuánto recibió? $___________
+P6640;¿la semana pasada trabajó usted horas extras remuneradas?;23. ¿La semana pasada ..... trabajó horas extras remuneradas?
+;;1 Sí
+;;2 No
+P6640S1;¿cuántas?;23. ¿La semana pasada ..... trabajó horas extras remuneradas?
+;;1 Sí
+;;¿cuántas?
+P6765;En la semana pasada, ¿cuál de las siguientes formas de trabajo realizó:;25. En la semana pasada, ¿cuál de las siguientes formas de trabajo realizó:
+;;a. Trabajó por honorarios o prestación de servicios?
+;;b. Trabajó por obra?
+;;c. Trabajó por piezas o a destajo? (satélite, maquila, etc)
+;;d. Trabajó por comisión únicamente?
+;;e. Trabajó vendiendo por catálogo?
+;;f. Trabajó en su oficio? (plomero, taxista, doméstica por días etc)
+;;g. Tiene un negocio de industria, comercio, servicios o una finca?
+;;h. Otro
+P6765S1;¿cuál?;25. En la semana pasada, ¿cuál de las siguientes formas de trabajo realizó:
+;;¿Cuál ? _______________
+P6772;¿....ha registrado el negocio ante alguna autoridad o entidad? (cámaras de comercio, alcaldías, rut, registro mercantil);26. ¿ ..... ha registrado el negocio ante alguna autoridad o entidad? (Cámaras de comercio, Alcaldías, RUT, registro mercantil)
+;;1 Sí
+;;2 No
+P6772S1;¿..ha renovado ese registro?;26A. ¿ … ha renovado ese registro?
+;;1 Sí
+;;2 No
+P6773S1;Año renovación;26B. ¿Cuál fue el último año en el que renovó este registro?
+;;Año____
+P6775;¿el negocio o actividad de …. Lleva contabilidad (realiza anualmente balance general y estado de perdidas y ganancias), o libro de registro diario de operaciones?;26C. ¿El negocio o actividad de …. lleva contabilidad (realiza anualmente balance general y estado de perdidas y ganancias), o libro de registro diario de operaciones?
+;;1 Sí
+;;2 No
+;;3 No aplica
+;;9 No sabe
+P6750;¿cuál fue la ganancia neta o los honorarios netos de ... Esa actividad, negocio, profesión o finca, el mes pasado?;27. ¿Cuál fue la ganancia neta o los honorarios netos de ... en esa actividad, negocio, profesión o finca, el mes pasado ?
+;;Honorarios o ganancia neta en el mes pasado
+;;Valor $_______________________
+P6760;¿a cuántos meses corresponde lo que recibió?;28. ¿ A cuántos meses corresponde lo que recibió?
+P550;¿cuál fue la ganancia neta del negocio o de la cosecha durante los últimos 12 meses?;28A. ¿Cuál fue la ganancia neta del negocio o de la cosecha durante los últimos doce meses?
+;;Honorarios o ganancia neta en los últimos doce meses
+;;Valor $_______________________
+;;SOLO PARA CENTROS POBLADOS Y ÁREA RURAL DISPERSA
+P6780;Este trabajo es:;29. Este trabajo es:
+;;a. Ocasional? (De vez en cuando)
+;;b. Estacional? (En ciertas épocas del año, cosechas, temporadas)
+;;c. Permanente?
+;;d. Otro?,
+P6780S1;Otro?, especifique;29. Este trabajo es:
+;;d. Otro?, especifique ______________
+P6790;¿cuántos meses trabajó en los últimos 12 meses?;30. ¿Cuántos meses trabajó en los últimos 12 meses?
+P1800;En ese trabajo, ¿tiene empleados o personas que le ayudan en su negocio o actividad?;
+P1800S1;¿cuántos?;
+P1801S1;Trabajadores que reciben un pago;
+P1801S2;Socios;
+P1801S3;Trabajadores o familiares sin remuneración;
+P1802;... Ofrece sus servicios o productos:;
+P1879;¿Cuál es la razón principal por la que trabaja en forma independiente en lugar de trabajar para un empleador o patrono ?;
+P1805;Si le ofrecieran un empleo como asalariado, en el cuál ganara lo mismo que obtiene actualmente pero con prestaciones, ¿aceptaría?;
+P6800;¿cuántas horas a la semana trabaja normalmente ... En ese trabajo?;31. ¿Cuántas horas a la semana trabaja normalmente.... en ese trabajo ?
+;;Horas ____
+P6810;¿cuál es la razón por la que trabaja normalmente menos de 40 horas a la semana?;32. ¿Cuál es la razón por la que trabaja normalmente menos de 40 horas a la semana?
+;;a. Es lo único que ha conseguido pero quiere trabajar más horas
+;;b. Es la jornada que se ajusta a sus necesidades
+;;c. Otra,
+P6810S1;¿cuál?;32. ¿Cuál es la razón por la que trabaja normalmente menos de 40 horas a la semana?
+;;¿cuál?__________________
+P6850;¿cuántas horas trabajó durante la semana pasada en este trabajo?;33. ¿Cuántas horas trabajó durante la semana pasada en este trabajo?
+;;Horas _____
+P6830;¿por qué razón de las horas que normalmente trabaja, hubo algunas que no trabajo la semana pasada?;34. ¿Por qué razón, de las horas que normalmente trabaja, hubo algunas que no trabajó la semana pasada?
+;;a. Enfermedad, permiso o licencia
+;;b. Festivos
+;;c. Vacaciones
+;;d. Capacitación
+;;e. Suspensión o terminación del empleo
+;;f. Reducción de la actividad económica de la empresa
+;;g. Otro,
+P6830S1;Otro, ¿cuál?;34. ¿Por qué razón, de las horas que normalmente trabaja, hubo algunas que no trabajó la semana pasada?
+;;¿cuál? _____________
+P6870;¿cuántas personas en total tiene la empresa, negocio, industria, oficina, firma o finca o sitio donde ... Trabaja?;36. ¿Cuántas personas en total tiene la empresa, negocio, industria, oficina, firma, finca o sitio donde ..... trabaja?
+;;a. Trabaja solo
+;;b. 2 a 3 personas
+;;c. 4 a 5 personas
+;;d. 6 a 10 personas
+;;e. 11 a 19 personas
+;;f. 20 a 30 personas
+;;g. 31 a 50 personas
+;;h. 51 a 100 personas
+;;i. 101 o más personas
+P6880;Dónde realiza principalmente su trabajo:;37. Dónde realiza principalmente su trabajo:
+;;a. En esta vivienda
+;;b. En otras viviendas
+;;c En kiosco - caseta
+;;d En un vehículo
+;;e. De puerta en puerta
+;;f. Sitio al descubierto en la calle (ambulante y estacionario)
+;;g. Local fijo, oficina, fábrica, etc.
+;;h. En el campo o área rural, mar o río
+;;i. En una obra en construcción
+;;j. En una mina o cantera
+;;k. Otro,
+P6880S1;Otro, ¿cuál?;37. Dónde realiza principalmente su trabajo:
+;;¿cuál? _______________________
+P6915;¿en caso de enfermedad como cubriría los costos médicos y los medicamentos?;38. ¿En caso de enfermedad como cubriría los costos médicos y los medicamentos?
+;;a. Es afiliado como cotizante a un régimen contributivo de salud (EPS)
+;;b. Es afiliado a un régimen subsidiado de salud
+;;c. Es beneficiario de un afiliado
+;;d. Con ahorros personales
+;;e. Con ayudas de los hijos o familiares
+;;f. Con otro tipo de seguro o cubrimiento
+;;g. Pidiendo dinero prestado
+;;h. Vendería su vivienda o bienes del hogar
+;;i. Empeñaría bienes del hogar
+;;j. No lo ha considerado
+;;k. No tiene recursos
+;;l. Otro,
+P6915S1;¿cual?;38. ¿En caso de enfermedad como cubriría los costos médicos y los medicamentos?
+;;¿cuál? ________________
+P6920;¿está ... Cotizando actualmente a un fondo de pensiones?;39. ¿Está... cotizando actualmente a un fondo de pensiones?
+;;1 Sí
+;;2 No
+;;3 Ya es pensionado
+P6930;¿a cual de los siguientes fondos esta afiliado actualmente:;40. ¿A cuál de los siguientes fondos cotiza actualmente:
+;;a. Fondo privado?
+;;b. ISS, Cajanal?
+;;c. Regímenes especiales (FFMM, Ecopetrol etc)?
+;;d. Fondo Subsidiado (Prosperar,etc.)?
+P6940;¿quién paga mensualmente por la afiliación al fondo de pensiones de ...?;41. ¿ Quién paga mensualmente por la afiliación al fondo de pensiones de...?
+;;a. ...paga una parte y otra la empresa o patrón
+;;b. ... paga la totalidad de la afiliación
+;;c. Paga completamente la empresa ó patrón
+;;d. No paga
+P6960;¿cuántos años lleva afiliado al fondo de pensiones?;42. ¿Cuántos años lleva cotizando al fondo de pensiones?
+P6980;¿qué está haciendo usted actualmente para mantenerse económicamente en su vejez?;43. ¿Qué está haciendo Usted actualmente para mantenerse económicamente en su vejez?
+P6980S1;Aportar a un fondo de pensiones obligatorias;43. ¿Qué está haciendo Usted actualmente para mantenerse económicamente en su vejez?
+;;a. Aportar en un fondo de pensiones obligatorias
+P6980S2;Aportar a un fondo de pensiones voluntarias;43. ¿Qué está haciendo Usted actualmente para mantenerse económicamente en su vejez?
+;;b. Aportar en un fondo de pensiones voluntarias
+P6980S3;Ahorrando;43. ¿Qué está haciendo Usted actualmente para mantenerse económicamente en su vejez?
+;;c. Ahorrando
+P6980S4;Haciendo inversiones;43. ¿Qué está haciendo Usted actualmente para mantenerse económicamente en su vejez?
+;;d. Haciendo inversiones
+P6980S5;Pagando un seguro por su cuenta;43. ¿Qué está haciendo Usted actualmente para mantenerse económicamente en su vejez?
+;;e. Pagando un seguro por su cuenta
+P6980S6;Preparando a sus hijos para que puedan mantenerlo en su vejez;43. ¿Qué está haciendo Usted actualmente para mantenerse económicamente en su vejez?
+;;f. Preparando a sus hijos para que puedan mantenerlo en su vejez
+P6980S7;Otro,;43. ¿Qué está haciendo Usted actualmente para mantenerse económicamente en su vejez?
+;;g.
+P6980S7A1;Otro, ¿cuál?;43. ¿Qué está haciendo Usted actualmente para mantenerse económicamente en su vejez?
+;;¿cuál? ________________
+P6980S8;Nada;43. ¿Qué está haciendo Usted actualmente para mantenerse económicamente en su vejez?
+;;h. Nada
+P6990;¿está afiliado por una empresa o individualmente a una aseguradora de riesgos profesionales (arp) (por accidentes de trabajo, enfermedad profesional etc)?;44. ¿Está afiliado por una empresa o individualmente a una Aseguradora de Riesgos Profesionales (ARP) (por accidentes de trabajo, enfermedad profesional etc)?
+;;1 Sí
+;;2 No
+;;9 No sabe, no informa
+P9450;¿esta afiliado a una caja de compensación familiar?;44A. ¿Esta afiliado a una caja de compensación familiar?
+;;1 Sí
+;;2 No
+;;9 No sabe, no informa
+P7020;Antes del actual trabajo, ¿... Tuvo otro trabajo?;45. Antes del actual trabajo, ¿... tuvo otro trabajo?
+;;1 Sí
+;;2 No
+P760;¿cuántos meses estuvo sin empleo o trabajo ... Entre el trabajo actual y el anterior?;46. ¿Cuántos meses estuvo sin empleo o trabajo ... entre el trabajo actual y el anterior?
+P7026;¿cuánto tiempo duró en su empleo anterior?;47. ¿Cuánto tiempo duró en su empleo anterior?
+P7028;¿en su empleo anterior usted era:;48. ¿En su empleo anterior ..... era:
+;;a. Obrero o empleado de empresa particular?
+;;b. Obrero o empleado del gobierno?
+;;c. Empleado doméstico?
+;;d. Trabajador por cuenta propia?
+;;e. Patrón o empleador?
+;;f. Trabajador familiar sin remuneración?
+;;g. Trabajador sin remuneración en empresas o negocios de otros hogares?
+;;h. Jornalero o peón?
+;;i. Otro,
+P7028S1;Otro, ¿cuál?;48. ¿En su empleo anterior ..... era:
+;;¿cual? ________________
+P7040;Además de la ocupación principal, ¿... Tenía la semana pasada otro trabajo o negocio?;49. Además de la ocupación principal, ¿.... tenía la semana pasada otro trabajo o negocio?
+;;1 Sí
+;;2 No
+P390;¿en qué departamento realiza … principalmente este trabajo?;P49A.¿En qué departamento realiza … principalmente este trabajo?
+;;5 - Antioquia
+;;8 - Atlántico
+;;11 - Bogotá
+;;13 - Bolívar
+;;15 - Boyacá
+;;17 - Caldas
+;;18 - Caquetá
+;;19 - Cauca
+;;20 - Cesar
+;;23 - Córdoba
+;;25 - Cundinamarca
+;;27 - Chocó
+;;41 - Huila
+;;44 - Guajira
+;;47 - Magdalena
+;;50 - Meta
+;;52 - Nariño
+;;54 - Norte de Santander
+;;63 - Quindío
+;;66 - Risaralda
+;;68 - Santander
+;;70 - Sucre
+;;73 - Tolima
+;;76 - Valle del Cauca
+;;81 - Arauca
+;;85 - Casanare
+;;86 - Putumayo
+;;88 - San Andrés
+;;99 - Vichada
+P7045;¿cuántas horas trabajó ... La semana pasada en ese segundo trabajo?;50. ¿Cuántas horas trabajó ... la semana pasada en ese segundo trabajo?
+P7050;En ese segundo trabajo ... Es:;51. En ese segundo trabajo…..es:
+;;a. Obrero o empleado de empresa particular
+;;b. Obrero o empleado del gobierno
+;;c. Empleado doméstico
+;;d. Trabajador por cuenta propia
+;;e. Patrón o empleador
+;;f. Trabajador familiar sin remuneración
+;;g. Trabajador sin remuneración en empresas o negocios de otros hogares
+;;h. Jornalero o peón
+;;i. Otro,
+P7050S1;Otro, ¿cuál?;51. En ese segundo trabajo…..es:
+;;¿cuál? ________________
+P7070;¿cuánto recibio o ganó ... El mes pasado en ese segundo trabajo?;52. ¿Cuánto recibió o ganó ….. el mes pasado en ese segundo trabajo o negocio?
+;;Valor mes pasado
+;;$_______________________
+P7075;¿cuántas personas en total tiene la empresa o negocio o finca donde trabaja?;53. ¿Cuántas personas en total tiene la empresa, negocio o finca donde ... trabaja?
+;;a. Trabaja solo
+;;b. 2 a 5 personas
+;;c. 6 a 10 personas
+;;d. 11 y más personas
+P7077;Dónde realiza principalmente su trabajo:;54. Dónde realiza principalmente su trabajo:
+;;a. En su vivienda
+;;b. En otras viviendas
+;;c. En kiosko - caseta
+;;d. En un vehículo
+;;e. De puerta en puerta
+;;f. Sitio al descubierto en la calle
+;;g. Local fijo, oficina, fábrica, etc.
+;;h. En el campo o área rural
+P1880;¿Cuál fue la razón principal por la que ... dejó su empleo anterior?;
+P1881;¿Qué medio de transporte utiliza principalmente para desplazarse a su sitio de trabajo?;
+P1882;¿Cuánto tiempo se demora regularmente ... en su desplazamiento hacia el trabajo? (Incluya tiempo de espera del medio de transporte);
+P7090;Además de la horas que trabaja actualmente ¿... Quiere trabajar más horas?;55. Además de las horas que trabaja actualmente ¿...... quiere trabajar más horas?
+;;1 Sí
+;;2 No
+P7100;¿cuántas horas adicionales puede trabajar ... A la semana?;56. ¿Cuántas horas adicionales puede trabajar....... a la semana?
+P7110;Durante las ultimas 4 semanas, ¿... Hizo diligencias para trabajar más horas?;57. Durante las ÚLTIMAS 4 SEMANAS, ¿ ...... hizo diligencias para trabajar más horas?
+;;1 Sí
+;;2 No
+P7120;Si la semana pasada le hubiera resultado la posibilidad de trabajar más horas ¿estaba ... Disponible para hacerlo?;58. Si la semana pasada le hubiera resultado la posibilidad de trabajar más horas ¿ estaba...... disponible para hacerlo?
+;;1 Sí
+;;2 No
+P7130;¿... Desea cambiar el trabajo que tiene actualmente?;59. ¿......desea cambiar el trabajo que tiene actualmente?
+;;1 Sí
+;;2 No
+P7140;Por cual o cuales de los siguientes motivos ... Desea cambiar de trabajo o empleo:;60. ¿Por que motivos ....... desea cambiar de trabajo o empleo:
+P7140S1;Para mejorar la utilización de sus capacidades o formación?;60. ¿Por que motivos ....... desea cambiar de trabajo o empleo:
+;;a. Para mejorar la utilización de sus capacidades o formación?
+;;1 Sí
+;;2 No
+P7140S2;Desea mejorar sus ingresos?;60. ¿Por que motivos ....... desea cambiar de trabajo o empleo:
+;;b. Desea mejorar sus ingresos?
+;;1 Sí
+;;2 No
+P7140S3;Desea trabajar menos horas?;60. ¿Por que motivos ....... desea cambiar de trabajo o empleo:
+;;c. Desea trabajar menos horas?
+;;1 Sí
+;;2 No
+P7140S4;Porque el trabajo actual es temporal?;60. ¿Por que motivos ....... desea cambiar de trabajo o empleo:
+;;d. Porque el trabajo actual es temporal?
+;;1 Sí
+;;2 No
+P7140S5;Problemas en el trabajo?;60. ¿Por que motivos ....... desea cambiar de trabajo o empleo:
+;;e. Problemas en el trabajo?
+;;1 Sí
+;;2 No
+P7140S6;No le gusta su trabajo actual?;60. ¿Por que motivos ....... desea cambiar de trabajo o empleo:
+;;f. No le gusta su trabajo actual?
+;;1 Sí
+;;2 No
+P7140S7;Su trabajo actual exige mucho esfuerzo físico o mental?;60. ¿Por que motivos ....... desea cambiar de trabajo o empleo:
+;;g. Su trabajo actual exige mucho esfuerzo físico o mental?
+;;1 Sí
+;;2 No
+P7140S8;Problemas ambientales (aire, olores, frío, ruidos, temperatura, etc.);60. ¿Por que motivos ....... desea cambiar de trabajo o empleo:
+;;h. Problemas ambientales (aire, olores, ruidos, temperatura, etc)?
+;;1 Sí
+;;2 No
+P7140S9;Otro?;60. ¿Por que motivos ....... desea cambiar de trabajo o empleo:
+;;i. Otro?
+;;1 Sí
+;;2 No
+P7140S9A1;¿cuál?;60. ¿Por que motivos ....... desea cambiar de trabajo o empleo:
+;;¿cuál?_____________
+P7150;Durante las ultimas 4 semanas, ¿... Hizo diligencias para cambiar de trabajo?;61. Durante las ÚLTIMAS 4 SEMANAS, ¿...... hizo diligencias para cambiar de trabajo?
+;;1 Sí
+;;2 No
+P7160;Si le resultara un nuevo trabajo o empleo a ... ¿podría empezar a desempeñarlo antes de un mes?;62. Si le resultara un nuevo trabajo o empleo a...¿podría empezar a desempeñarlo antes de un mes?
+;;1 Sí
+;;2 No
+;;9 No sabe, no informa
+P7170S1;Con su trabajo actual?;63A. ¿Está .....satisfecho con su trabajo actual?
+;;1.Si
+;;2.No
+P7170S5;Con los beneficios y prestaciones que recibe?;63B. ¿Está ..... satisfecho con los beneficios y prestaciones que recibe?
+;;1.Si
+;;2.No
+P7170S6;Con su jornada laboral actual?;63C. ¿Está ..... satisfecho con su jornada laboral actual?
+;;1 Si
+;;2 No
+P7180;¿está afiliado o hace parte de una asociación gremial o sindical?;64. ¿Está afiliado o hace parte de una asociación gremial o sindical?
+;;1 Sí
+;;2 No
+P514;¿considera que es su empleo o trabajo actual es estable?;P65.¿Considera que es su empleo o trabajo actual es estable?
+;;1 Si
+;;2 No
+P515;¿su horario de trabajo y sus responsabilidades familiares son compatibles?;P66.¿Su horario de trabajo y sus responsabilidades familiares son compatibles?
+;;1. Si
+;;2. No
+P7240;En caso de no tener trabajo, de donde obtendría principalmente los recursos para sus gastos y/o los de su hogar:;67. ¿En caso de no tener trabajo, de donde obtendría principalmente los recursos para sus gastos y/o los de su hogar:
+;;a. Cesantías?
+;;b. Ahorros personales?
+;;c. Ayudas de hijos o familiares?
+;;d. Indemnización o similar?
+;;e. No lo ha considerado?
+;;f. Vendería su vivienda o bienes del hogar?
+;;g. Empeñaría bienes del hogar?
+;;h. No tendría recursos?
+;;i. Solicitaría dinero prestado?
+;;j. Otros,
+P7240S1;Otros, ¿cuales?;67. ¿En caso de no tener trabajo, de donde obtendría principalmente los recursos para sus gastos y/o los de su hogar:
+;;¿cuales? ____________
+OFICIO;¿qué hace ... En este trabajo?;1. ¿Qué hace……en este trabajo?
+;;Código ________
+RAMA2D;¿a qué actividad se dedica principalmente la empresa o negocio en la que ... Realiza su trabajo?;3. ¿A qué actividad se dedica principalmente la empresa o negocio en la que…… realiza su trabajo?
+OCI;Población ocupada;Población Ocupada
+P6430;En este trabajo ... Es:;12. En este trabajo…..es:
+;;a. Obrero o empleado de empresa particular
+;;b. Obrero o empleado del gobierno
+;;c. Empleado doméstico
+;;d. Trabajador por cuenta propia
+;;e. Patrón o empleador
+;;f. Trabajador familiar sin remuneración
+;;g. Trabajador sin remuneración en empresas o negocios de otros hogares
+;;h. Jornalero o peón
+;;i. Otro,
+RAMA4D;Rama de actividad;Rama de la actividad según la CIIU revisión 3 adaptada para Colombia
+RAMA4DP8;Rama de actividad;Rama de la actividad según la CIIU revisión 3 adaptada para Colombia
+RAMA2DP8;Rama de actividad;Rama de la actividad según la CIIU revisión 3 adaptada para Colombia
+INGLABO;Ingresos laborales;Ingresos Laborales
+MES;Mes;Mes
+DPTO;Departamento;Departamento
+fex_c_2011;Factor de expansión;
